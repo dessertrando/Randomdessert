@@ -208,6 +208,13 @@ let desserts = [];
 let selected = null;
 let madeItems = JSON.parse(localStorage.getItem('madeDesserts') || '[]');
 
+window.addEventListener('load', ()=>{
+  if(madeItems.length > 0){
+    document.getElementById('made-panel').style.display = 'block';
+  }
+});
+
+
 function imageUrl(name){
 return "https://loremflickr.com/1200/800/" + encodeURIComponent(name + ",dessert");
 }
@@ -289,7 +296,17 @@ renderMade();
 }
 
 function renderMade(){
-document.getElementById('made-list').innerHTML = madeItems.map((item,index)=>`
+
+localStorage.setItem('madeDesserts', JSON.stringify(madeItems));
+
+const list = document.getElementById('made-list');
+
+if(madeItems.length === 0){
+list.innerHTML = '<div style="color:#94a3b8;">No desserts saved yet.</div>';
+return;
+}
+
+list.innerHTML = madeItems.map((item,index)=>`
 <div class="made-item">
 <span>${item}</span>
 <button class="delete" onclick="deleteMade(${index})">Delete</button>
