@@ -65,9 +65,11 @@ border:none;
 <div id="results"></div>
 </div>
 
-<script>
+<script type="module">
 let desserts = [];
 let current = null;
+import { auth, db } from './firebase.js';
+ 
 
 async function init(){
  const res = await fetch('desserts.json');
