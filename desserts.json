@@ -2,859 +2,1141 @@
   {
     "country": "Afghanistan",
     "dessert": "Baklava",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
     "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Albania",
     "dessert": "Tiramisu",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
     "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Algeria",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Andorra",
     "dessert": "Churros",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
     "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Angola",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
-  },
-  {
-    "country": "Argentina",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Armenia",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
-  },
-  {
-    "country": "Australia",
-    "dessert": "Pavlova",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
-  },
-  {
-    "country": "Austria",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
-  },
-  {
-    "country": "Azerbaijan",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
-  },
-  {
-    "country": "Bahamas",
-    "dessert": "Apple Pie",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
-  },
-  {
-    "country": "Bahrain",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
-  },
-  {
-    "country": "Bangladesh",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Barbados",
-    "dessert": "Macarons",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Belarus",
-    "dessert": "Black Forest Cake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
-  },
-  {
-    "country": "Belgium",
-    "dessert": "Rice Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
-  },
-  {
-    "country": "Belize",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
-  },
-  {
-    "country": "Benin",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
-  },
-  {
-    "country": "Bhutan",
     "dessert": "Gulab Jamun",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
     "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
+    "country": "Argentina",
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Armenia",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "Australia",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Austria",
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Azerbaijan",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Bahamas",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Bahrain",
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+  },
+  {
+    "country": "Bangladesh",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Barbados",
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+  },
+  {
+    "country": "Belarus",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
+  },
+  {
+    "country": "Belgium",
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+  },
+  {
+    "country": "Belize",
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "Benin",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+  },
+  {
+    "country": "Bhutan",
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
+  },
+  {
     "country": "Bolivia",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Bosnia and Herzegovina",
     "dessert": "Baklava",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
     "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Botswana",
     "dessert": "Tiramisu",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
     "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Brazil",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Brunei",
     "dessert": "Churros",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
     "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Bulgaria",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Burkina Faso",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Burundi",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
-  },
-  {
-    "country": "Cambodia",
     "dessert": "Pavlova",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
     "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
+    "country": "Cambodia",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
     "country": "Cameroon",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
   },
   {
     "country": "Canada",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
   },
   {
-    "country": "Chile",
-    "dessert": "Apple Pie",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+    "country": "Cape Verde",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
   },
   {
-    "country": "China",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
-  },
-  {
-    "country": "Colombia",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Costa Rica",
-    "dessert": "Macarons",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Croatia",
+    "country": "Central African Republic",
     "dessert": "Black Forest Cake",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
     "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
-    "country": "Cuba",
+    "country": "Chad",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Chile",
     "dessert": "Rice Pudding",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
     "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
+    "country": "China",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
+  },
+  {
+    "country": "Colombia",
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+  },
+  {
+    "country": "Comoros",
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "Costa Rica",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+  },
+  {
+    "country": "Croatia",
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
+  },
+  {
+    "country": "Cuba",
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+  },
+  {
     "country": "Cyprus",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Czech Republic",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Denmark",
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Djibouti",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Dominica",
     "dessert": "Gulab Jamun",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
     "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Dominican Republic",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Ecuador",
-    "dessert": "Baklava",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Egypt",
-    "dessert": "Tiramisu",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
   },
   {
     "country": "El Salvador",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Eritrea",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
   },
   {
     "country": "Estonia",
-    "dessert": "Churros",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+  },
+  {
+    "country": "Eswatini",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
   },
   {
     "country": "Ethiopia",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+  },
+  {
+    "country": "Fiji",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
   },
   {
     "country": "Finland",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "France",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "Gabon",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+  },
+  {
+    "country": "Gambia",
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
   },
   {
     "country": "Georgia",
-    "dessert": "Pavlova",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Germany",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Ghana",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Greece",
-    "dessert": "Apple Pie",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Grenada",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Guatemala",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Guinea",
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "Guyana",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
   },
   {
     "country": "Haiti",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
   },
   {
     "country": "Honduras",
-    "dessert": "Macarons",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
   },
   {
     "country": "Hungary",
-    "dessert": "Black Forest Cake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
   },
   {
     "country": "Iceland",
-    "dessert": "Rice Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "India",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
   },
   {
     "country": "Indonesia",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Iran",
-    "dessert": "Gulab Jamun",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
   },
   {
     "country": "Iraq",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Ireland",
-    "dessert": "Baklava",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
   },
   {
     "country": "Israel",
-    "dessert": "Tiramisu",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Italy",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
   },
   {
     "country": "Jamaica",
-    "dessert": "Churros",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Japan",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Jordan",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Kazakhstan",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Kenya",
-    "dessert": "Pavlova",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Kiribati",
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Kuwait",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Laos",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
   },
   {
     "country": "Latvia",
-    "dessert": "Apple Pie",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
   },
   {
     "country": "Lebanon",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Lesotho",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Liberia",
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Libya",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Liechtenstein",
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Lithuania",
-    "dessert": "Macarons",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
   },
   {
     "country": "Luxembourg",
-    "dessert": "Black Forest Cake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Madagascar",
-    "dessert": "Rice Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "Malawi",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Malaysia",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
   },
   {
     "country": "Maldives",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Mali",
-    "dessert": "Gulab Jamun",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Malta",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Marshall Islands",
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Mauritania",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Mauritius",
-    "dessert": "Baklava",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Mexico",
-    "dessert": "Tiramisu",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Moldova",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
-  },
-  {
-    "country": "Mongolia",
-    "dessert": "Churros",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Montenegro",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
-  },
-  {
-    "country": "Morocco",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Myanmar",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
-  },
-  {
-    "country": "Namibia",
-    "dessert": "Pavlova",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
-  },
-  {
-    "country": "Nepal",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
-  },
-  {
-    "country": "Netherlands",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
-  },
-  {
-    "country": "New Zealand",
-    "dessert": "Apple Pie",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
-  },
-  {
-    "country": "Nicaragua",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
-  },
-  {
-    "country": "Niger",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Nigeria",
-    "dessert": "Macarons",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "North Korea",
-    "dessert": "Black Forest Cake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
-  },
-  {
-    "country": "North Macedonia",
-    "dessert": "Rice Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
-  },
-  {
-    "country": "Norway",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
-  },
-  {
-    "country": "Oman",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
-  },
-  {
-    "country": "Pakistan",
     "dessert": "Gulab Jamun",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
     "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
-    "country": "Panama",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
-  },
-  {
-    "country": "Papua New Guinea",
-    "dessert": "Baklava",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Paraguay",
-    "dessert": "Tiramisu",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Peru",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
-  },
-  {
-    "country": "Philippines",
-    "dessert": "Churros",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Poland",
+    "country": "Mexico",
     "dessert": "Cheesecake",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
     "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
-    "country": "Portugal",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Qatar",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
-  },
-  {
-    "country": "Romania",
+    "country": "Micronesia",
     "dessert": "Pavlova",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
     "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
-    "country": "Russia",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
+    "country": "Moldova",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
   },
   {
-    "country": "Rwanda",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
+    "country": "Monaco",
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
   },
   {
-    "country": "Saudi Arabia",
+    "country": "Mongolia",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Montenegro",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Morocco",
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+  },
+  {
+    "country": "Mozambique",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Myanmar",
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+  },
+  {
+    "country": "Namibia",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
+  },
+  {
+    "country": "Nauru",
     "dessert": "Apple Pie",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
     "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
-    "country": "Senegal",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
+    "country": "Nepal",
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
   },
   {
-    "country": "Serbia",
+    "country": "Netherlands",
     "dessert": "Cannoli",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
     "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
-    "country": "Singapore",
+    "country": "New Zealand",
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
+  },
+  {
+    "country": "Nicaragua",
     "dessert": "Macarons",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
     "recipe": "https://www.google.com/search?q=Macarons+recipe"
+  },
+  {
+    "country": "Niger",
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Nigeria",
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "North Korea",
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "North Macedonia",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Norway",
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Oman",
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Pakistan",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "Palau",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Panama",
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Papua New Guinea",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Paraguay",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Peru",
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+  },
+  {
+    "country": "Philippines",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Poland",
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
+  },
+  {
+    "country": "Portugal",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
+  },
+  {
+    "country": "Qatar",
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
+  },
+  {
+    "country": "Romania",
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "Russia",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+  },
+  {
+    "country": "Rwanda",
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+  },
+  {
+    "country": "Saint Lucia",
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "dessert": "Tiramisu",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Samoa",
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "San Marino",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Saudi Arabia",
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Senegal",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "Serbia",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Seychelles",
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Sierra Leone",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Singapore",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
   },
   {
     "country": "Slovakia",
     "dessert": "Black Forest Cake",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
     "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Slovenia",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
+  },
+  {
+    "country": "Solomon Islands",
     "dessert": "Rice Pudding",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
     "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Somalia",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
   },
   {
     "country": "South Africa",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
+    "dessert": "Apple Pie",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "South Korea",
-    "dessert": "Gulab Jamun",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
+    "country": "South Sudan",
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Spain",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
   },
   {
     "country": "Sri Lanka",
-    "dessert": "Baklava",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+    "dessert": "Macarons",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Sudan",
+    "dessert": "Baklava",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Suriname",
     "dessert": "Tiramisu",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
     "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Sweden",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Switzerland",
     "dessert": "Churros",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
     "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Syria",
-    "dessert": "Cheesecake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Taiwan",
-    "dessert": "Mochi",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Tajikistan",
-    "dessert": "Gelato",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gelato+recipe"
-  },
-  {
-    "country": "Tanzania",
     "dessert": "Pavlova",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
     "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
+    "country": "Tanzania",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
     "country": "Thailand",
-    "dessert": "Flan",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Flan+recipe"
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Timor-Leste",
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
+  },
+  {
+    "country": "Togo",
+    "dessert": "Pastel de Nata",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pastel_de_Nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Tonga",
+    "dessert": "Black Forest Cake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Forest_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "dessert": "Malva Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Malva_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe"
   },
   {
     "country": "Tunisia",
-    "dessert": "Tres Leches",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
+    "dessert": "Rice Pudding",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Rice_Pudding.jpg",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Turkey",
+    "dessert": "Donuts",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Donuts.jpg",
+    "recipe": "https://www.google.com/search?q=Donuts+recipe"
+  },
+  {
+    "country": "Turkmenistan",
     "dessert": "Apple Pie",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Apple_Pie.jpg",
     "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
+    "country": "Tuvalu",
+    "dessert": "Brownies",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Brownies.jpg",
+    "recipe": "https://www.google.com/search?q=Brownies+recipe"
+  },
+  {
     "country": "Uganda",
-    "dessert": "Sticky Toffee Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
+    "dessert": "Cannoli",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cannoli.jpg",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Ukraine",
-    "dessert": "Cannoli",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+    "dessert": "Kulfi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Kulfi.jpg",
+    "recipe": "https://www.google.com/search?q=Kulfi+recipe"
   },
   {
     "country": "United Arab Emirates",
     "dessert": "Macarons",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Macarons.jpg",
     "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "United Kingdom",
-    "dessert": "Black Forest Cake",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
-  },
-  {
-    "country": "United States",
-    "dessert": "Rice Pudding",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
-  },
-  {
-    "country": "Uruguay",
-    "dessert": "Kunafa",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
-  },
-  {
-    "country": "Uzbekistan",
-    "dessert": "Halva",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Halva+recipe"
-  },
-  {
-    "country": "Venezuela",
-    "dessert": "Gulab Jamun",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Vietnam",
-    "dessert": "Bibingka",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
-  },
-  {
-    "country": "Yemen",
     "dessert": "Baklava",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Baklava.jpg",
     "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
-    "country": "Zambia",
+    "country": "United States",
     "dessert": "Tiramisu",
-    "flag": "🏳️",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tiramisu.jpg",
     "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
+    "country": "Uruguay",
+    "dessert": "Mochi",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Mochi.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Uzbekistan",
+    "dessert": "Churros",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Vanuatu",
+    "dessert": "Gulab Jamun",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Gulab_Jamun.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Venezuela",
+    "dessert": "Cheesecake",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cheesecake.jpg",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Vietnam",
+    "dessert": "Pavlova",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Pavlova.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "Yemen",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Cr\u00e8me_Br\u00fbl\u00e9e.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Zambia",
+    "dessert": "Alfajores",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
     "country": "Zimbabwe",
-    "dessert": "Crème Brûlée",
-    "flag": "🏳️",
-    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
+    "dessert": "Sachertorte",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Sachertorte.jpg",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
   }
 ]
