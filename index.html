@@ -37,7 +37,7 @@ input{width:100%;padding:14px;margin-top:10px;border:none;border-radius:12px}
 <p id="status">Guest mode active</p>
 
 <div class="card">
-<img id="hero">
+<img id="hero" onerror="this.src=\'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png\'">
 <div class="content">
 <h2 id="dessert"></h2>
 <h3 id="country"></h3>
@@ -140,5 +140,58 @@ if(user){
 document.getElementById('status').innerText='Logged in as '+user;
 }
 </script>
+
+<script type="module">
+import { firebaseConfig } from './firebase.js';
+
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import {
+getAuth,
+createUserWithEmailAndPassword,
+signInWithEmailAndPassword,
+signOut,
+onAuthStateChanged
+} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+
+import {
+getFirestore,
+doc,
+setDoc,
+getDoc
+} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+window.firebaseCreate = async (email,password)=>{
+return await createUserWithEmailAndPassword(auth,email,password);
+};
+
+window.firebaseLogin = async (email,password)=>{
+return await signInWithEmailAndPassword(auth,email,password);
+};
+
+window.firebaseLogout = async ()=>{
+return await signOut(auth);
+};
+
+window.firebaseSaveMade = async (uid,made)=>{
+await setDoc(doc(db,'users',uid),{made});
+};
+
+window.firebaseLoadMade = async (uid)=>{
+const snap = await getDoc(doc(db,'users',uid));
+return snap.exists() ? snap.data().made || [] : [];
+};
+
+onAuthStateChanged(auth,(user)=>{
+const status=document.getElementById('status');
+if(status){
+status.innerText=user ? 'Logged in as '+user.email : 'Not logged in';
+}
+});
+</script>
+
 </body>
 </html>
