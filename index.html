@@ -1,31 +1,42 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dessert Explorer</title>
 <style>
 body{background:#020617;color:white;font-family:Arial;margin:0;padding:20px}
 .container{max-width:900px;margin:auto}
-button{padding:16px 22px;border:none;border-radius:18px;margin:6px;font-weight:bold;cursor:pointer}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+button{padding:16px 20px;border:none;border-radius:18px;font-weight:bold;cursor:pointer}
 .primary{background:white;color:black}
 .secondary{background:#172554;color:white}
-.card{background:#0f172a;border-radius:28px;overflow:hidden;margin-top:20px}
+.card{background:#0f172a;border-radius:28px;overflow:hidden}
 .hero{width:100%;height:360px;object-fit:cover;background:#111827}
 .content{padding:24px}
-.recipe{display:inline-block;padding:16px 22px;border-radius:18px;background:linear-gradient(90deg,#f97316,#ec4899);color:white;text-decoration:none}
-.search{width:100%;padding:18px;border-radius:18px;border:none;margin-top:20px}
+.recipe{display:inline-block;margin-top:16px;padding:16px 24px;border-radius:18px;background:linear-gradient(90deg,#f97316,#ec4899);color:white;text-decoration:none}
+.search{width:100%;padding:18px;border:none;border-radius:18px;margin-top:20px}
 .item{background:#111827;padding:16px;border-radius:16px;margin-top:10px;cursor:pointer}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center}
+.box{background:#111827;padding:24px;border-radius:24px;width:90%;max-width:400px}
+input{width:100%;padding:14px;border:none;border-radius:14px;margin-top:10px}
+.made-item{background:#172554;padding:12px;border-radius:12px;margin-top:10px}
 </style>
 </head>
 <body>
 <div class="container">
 <h1>🍰 Dessert Explorer</h1>
-<p>191-country Firebase edition</p>
+<p>191-country Firebase build</p>
 
+<div class="buttons">
 <button class="primary" onclick="randomDessert()">🎲 Random Dessert</button>
 <button class="secondary" onclick="markMade()">✅ Made</button>
-<button class="secondary" onclick="showMade()">📘 What I've Made</button>
+<button class="secondary" onclick="openMade()">📘 What I've Made</button>
+<button class="secondary" onclick="openAccount()">👤 Account</button>
+</div>
+
+<div id="status">Not logged in</div>
 
 <div class="card">
 <img id="hero" class="hero">
@@ -40,9 +51,53 @@ button{padding:16px 22px;border:none;border-radius:18px;margin:6px;font-weight:b
 <div id="list"></div>
 </div>
 
-<script>
-let desserts=[], current=null;
-let made = JSON.parse(localStorage.getItem('madeDesserts')||'[]');
+<div id="accountModal" class="modal">
+<div class="box">
+<h2>Account</h2>
+<input id="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<button class="primary" onclick="registerUser()">Create Account</button>
+<button class="secondary" onclick="loginUser()">Login</button>
+<button class="secondary" onclick="logoutUser()">Logout</button>
+<button class="secondary" onclick="closeAccount()">Close</button>
+</div>
+</div>
+
+<div id="madeModal" class="modal">
+<div class="box">
+<h2>Made Desserts</h2>
+<div id="madeList"></div>
+<button class="secondary" onclick="closeMade()">Close</button>
+</div>
+</div>
+
+<script type="module">
+import { firebaseConfig } from './firebase-config.js';
+
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import {
+getAuth,
+createUserWithEmailAndPassword,
+signInWithEmailAndPassword,
+signOut,
+onAuthStateChanged
+} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+
+import {
+getFirestore,
+doc,
+setDoc,
+getDoc
+} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+let desserts=[];
+let current=null;
+let currentUser=null;
+let made=[];
 
 fetch('./desserts.json').then(r=>r.json()).then(d=>{
 desserts=d;
@@ -58,42 +113,97 @@ document.getElementById('country').innerText=current.country;
 document.getElementById('recipe').href=current.recipe;
 }
 
-function randomDessert(){
+window.randomDessert=function(){
 current=desserts[Math.floor(Math.random()*desserts.length)];
 render();
 }
 
-function markMade(){
-if(!made.find(x=>x.country===current.country)){
-made.push(current);
-localStorage.setItem('madeDesserts',JSON.stringify(made));
-alert('Saved to made list');
-}
-}
-
-function showMade(){
-alert(made.map(x=>x.dessert+' — '+x.country).join('\n') || 'Nothing saved yet');
-}
-
 function renderList(items){
-document.getElementById('list').innerHTML=items.slice(0,30).map(i=>`
+document.getElementById('list').innerHTML=items.slice(0,40).map(i=>`
 <div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
 <b>${i.dessert}</b><br>${i.country}
 </div>`).join('');
 }
 
-function pick(v){
+window.pick=function(v){
 current=JSON.parse(v);
 render();
 window.scrollTo({top:0,behavior:'smooth'});
 }
 
-document.addEventListener('input',e=>{
-if(e.target.id==='search'){
+document.getElementById('search').addEventListener('input',e=>{
 const q=e.target.value.toLowerCase();
 renderList(desserts.filter(d=>d.country.toLowerCase().includes(q)||d.dessert.toLowerCase().includes(q)));
+});
+
+window.openAccount=()=>document.getElementById('accountModal').style.display='flex';
+window.closeAccount=()=>document.getElementById('accountModal').style.display='none';
+
+window.openMade=()=>{
+renderMade();
+document.getElementById('madeModal').style.display='flex';
+};
+
+window.closeMade=()=>document.getElementById('madeModal').style.display='none';
+
+window.registerUser=async()=>{
+try{
+await createUserWithEmailAndPassword(
+auth,
+document.getElementById('email').value,
+document.getElementById('password').value
+);
+alert('Account created');
+}catch(e){alert(e.message)}
+}
+
+window.loginUser=async()=>{
+try{
+await signInWithEmailAndPassword(
+auth,
+document.getElementById('email').value,
+document.getElementById('password').value
+);
+closeAccount();
+}catch(e){alert(e.message)}
+}
+
+window.logoutUser=async()=>{await signOut(auth)}
+
+onAuthStateChanged(auth, async user=>{
+currentUser=user;
+
+if(user){
+document.getElementById('status').innerText='Logged in as '+user.email;
+
+const snap = await getDoc(doc(db,'users',user.uid));
+if(snap.exists()) made=snap.data().made || [];
+
+}else{
+document.getElementById('status').innerText='Not logged in';
+made=[];
 }
 });
+
+window.markMade=async()=>{
+if(!currentUser){
+alert('Please login');
+return;
+}
+
+if(!made.find(x=>x.country===current.country)){
+made.push(current);
+
+await setDoc(doc(db,'users',currentUser.uid),{made});
+
+alert('Saved');
+}
+}
+
+function renderMade(){
+document.getElementById('madeList').innerHTML=
+made.map(x=>`<div class="made-item">${x.dessert} — ${x.country}</div>`).join('') || 'Nothing saved yet';
+}
 </script>
 </body>
 </html>
