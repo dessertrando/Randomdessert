@@ -81,7 +81,7 @@ document.getElementById('country').innerText=current.country;
 document.getElementById('recipe').href=current.recipe;
 }
 
-function randomDessert(){
+window.randomDessert = function(){
 current=desserts[Math.floor(Math.random()*desserts.length)];
 render();
 }
@@ -93,7 +93,7 @@ document.getElementById('list').innerHTML=items.map(i=>`
 </div>`).join('');
 }
 
-function pick(v){
+window.pick = function(v){
 current=JSON.parse(v);
 render();
 window.scrollTo({top:0,behavior:'smooth'});
@@ -104,7 +104,7 @@ const q=e.target.value.toLowerCase();
 renderList(desserts.filter(d=>d.country.toLowerCase().includes(q)||d.dessert.toLowerCase().includes(q)));
 });
 
-function markMade(){
+window.markMade = function(){
 let made=JSON.parse(localStorage.getItem('made')||'[]');
 if(!made.find(x=>x.country===current.country)){
 made.push(current);
@@ -113,20 +113,20 @@ alert('Saved');
 }
 }
 
-function showMade(){
+window.showMade = function(){
 let made=JSON.parse(localStorage.getItem('made')||'[]');
 alert(made.map(x=>x.dessert+' — '+x.country).join('\n')||'Nothing saved');
 }
 
-function openAccount(){
+window.openAccount = function(){
 document.getElementById('accountModal').style.display='flex';
 }
 
-function closeAccount(){
+window.closeAccount = function(){
 document.getElementById('accountModal').style.display='none';
 }
 
-function fakeLogin(){
+window.fakeLogin = function(){
 const email=document.getElementById('email').value;
 if(email){
 localStorage.setItem('user',email);
