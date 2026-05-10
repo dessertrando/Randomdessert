@@ -5,192 +5,258 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dessert Explorer</title>
+
 <style>
-body{background:#020617;color:white;font-family:Arial;padding:20px;margin:0}
-.container{max-width:900px;margin:auto}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-button{padding:18px;border:none;border-radius:18px;font-weight:bold;font-size:18px}
-.primary{background:white}
-.secondary{background:#172554;color:white}
-.card{background:#0f172a;border-radius:28px;overflow:hidden;margin-top:20px}
-img{width:100%;height:340px;object-fit:cover;background:#111827}
-.content{padding:24px}
-.recipe{display:inline-block;padding:16px 24px;border-radius:18px;color:white;text-decoration:none;background:linear-gradient(90deg,#f97316,#ec4899)}
-.search{width:100%;padding:18px;border:none;border-radius:18px;margin-top:20px}
-.item{background:#111827;padding:14px;border-radius:14px;margin-top:10px}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center}
-.box{background:#111827;padding:20px;border-radius:20px;width:90%;max-width:400px}
-input{width:100%;padding:14px;margin-top:10px;border:none;border-radius:12px}
+body{
+background:#020617;
+color:white;
+font-family:Arial;
+margin:0;
+padding:20px;
+}
+.container{
+max-width:900px;
+margin:auto;
+}
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+button{
+padding:18px;
+border:none;
+border-radius:18px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+.primary{
+background:white;
+color:black;
+}
+.secondary{
+background:#172554;
+color:white;
+}
+.card{
+background:#0f172a;
+border-radius:28px;
+overflow:hidden;
+margin-top:20px;
+}
+.hero{
+width:100%;
+height:360px;
+object-fit:cover;
+background:#111827;
+}
+.content{
+padding:24px;
+}
+.recipe{
+display:inline-block;
+margin-top:16px;
+padding:16px 24px;
+border-radius:18px;
+text-decoration:none;
+color:white;
+background:linear-gradient(90deg,#f97316,#ec4899);
+}
+.search{
+width:100%;
+padding:18px;
+border:none;
+border-radius:18px;
+margin-top:20px;
+}
+.item{
+background:#111827;
+padding:14px;
+border-radius:14px;
+margin-top:10px;
+cursor:pointer;
+}
+.modal{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.7);
+display:none;
+align-items:center;
+justify-content:center;
+}
+.box{
+background:#111827;
+padding:20px;
+border-radius:20px;
+width:90%;
+max-width:500px;
+max-height:80vh;
+overflow:auto;
+}
+.made-item{
+background:#172554;
+padding:12px;
+border-radius:12px;
+margin-top:10px;
+}
 </style>
 </head>
+
 <body>
+
 <div class="container">
+
 <h1>🍰 Dessert Explorer</h1>
+<p>Shared global made-desserts list</p>
 
 <div class="grid">
 <button class="primary" onclick="randomDessert()">🎲 Random Dessert</button>
 <button class="secondary" onclick="markMade()">✅ Made</button>
-<button class="secondary" onclick="showMade()">📘 What I've Made</button>
-<button class="secondary" onclick="openAccount()">👤 Account</button>
+<button class="secondary" onclick="openMade()">📘 What We've Made</button>
+<button class="secondary" onclick="clearMade()">🗑 Clear Shared List</button>
 </div>
 
-<p id="status">Guest mode active</p>
-
 <div class="card">
-<img id="hero" onerror="this.src=\'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png\'">
+<img id="hero" class="hero">
+
 <div class="content">
 <h2 id="dessert"></h2>
 <h3 id="country"></h3>
+
 <a id="recipe" class="recipe" target="_blank">View Recipe</a>
 </div>
 </div>
 
 <input id="search" class="search" placeholder="Search desserts or countries">
+
 <div id="list"></div>
 
-<div id="accountModal" class="modal">
-<div class="box">
-<h2>Account</h2>
-<input id="email" placeholder="Email">
-<input id="password" placeholder="Password" type="password">
-<button class="primary" onclick="fakeLogin()">Login / Create</button>
-<button class="secondary" onclick="closeAccount()">Close</button>
 </div>
+
+<div id="madeModal" class="modal">
+<div class="box">
+<h2>What We've Made</h2>
+
+<div id="madeList"></div>
+
+<button class="secondary" onclick="closeMade()">Close</button>
 </div>
 </div>
 
-<script type="module" >
-  
-import { auth, db } from './firebase.js';
-let desserts=[];
-let current=null;
+<script type="module">
+
+import { firebaseConfig } from './firebase-config.js';
+
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+
+import {
+getFirestore,
+doc,
+getDoc,
+setDoc,
+onSnapshot
+} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+const sharedDoc = doc(db,'global','madeDesserts');
+
+let desserts = [];
+let current = null;
+let made = [];
 
 fetch('./desserts.json')
 .then(r=>r.json())
 .then(data=>{
-desserts=data;
-current=desserts[0];
+desserts = data;
+current = desserts[0];
 render();
 renderList(desserts);
 });
 
 function render(){
-document.getElementById('hero').src=current.image;
-document.getElementById('dessert').innerText=current.dessert;
-document.getElementById('country').innerText=current.country;
-document.getElementById('recipe').href=current.recipe;
+document.getElementById('hero').src = current.image;
+document.getElementById('dessert').innerText = current.dessert;
+document.getElementById('country').innerText = current.country;
+document.getElementById('recipe').href = current.recipe;
 }
 
 window.randomDessert = function(){
-current=desserts[Math.floor(Math.random()*desserts.length)];
+current = desserts[Math.floor(Math.random()*desserts.length)];
 render();
 }
 
-function renderList(items){
-document.getElementById('list').innerHTML=items.map(i=>`
-<div class='item' onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
-<b>${i.dessert}</b><br>${i.country}
-</div>`).join('');
-}
-
 window.pick = function(v){
-current=JSON.parse(v);
+current = JSON.parse(v);
 render();
 window.scrollTo({top:0,behavior:'smooth'});
 }
 
+function renderList(items){
+document.getElementById('list').innerHTML =
+items.slice(0,50).map(i=>`
+<div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
+<b>${i.dessert}</b><br>${i.country}
+</div>
+`).join('');
+}
+
 document.getElementById('search').addEventListener('input',e=>{
-const q=e.target.value.toLowerCase();
-renderList(desserts.filter(d=>d.country.toLowerCase().includes(q)||d.dessert.toLowerCase().includes(q)));
+const q = e.target.value.toLowerCase();
+
+renderList(
+desserts.filter(d =>
+d.country.toLowerCase().includes(q) ||
+d.dessert.toLowerCase().includes(q)
+)
+);
 });
 
-window.markMade = function(){
-let made=JSON.parse(localStorage.getItem('made')||'[]');
-if(!made.find(x=>x.country===current.country)){
+window.markMade = async function(){
+
+if(!made.find(x => x.country === current.country)){
+
 made.push(current);
-localStorage.setItem('made',JSON.stringify(made));
-alert('Saved');
+
+await setDoc(sharedDoc,{ made });
+
+alert('Added to shared made list');
 }
 }
 
-window.showMade = function(){
-let made=JSON.parse(localStorage.getItem('made')||'[]');
-alert(made.map(x=>x.dessert+' — '+x.country).join('\n')||'Nothing saved');
+window.openMade = function(){
+renderMade();
+document.getElementById('madeModal').style.display='flex';
 }
 
-window.openAccount = function(){
-document.getElementById('accountModal').style.display='flex';
+window.closeMade = function(){
+document.getElementById('madeModal').style.display='none';
 }
 
-window.closeAccount = function(){
-document.getElementById('accountModal').style.display='none';
+window.clearMade = async function(){
+made = [];
+await setDoc(sharedDoc,{ made:[] });
+renderMade();
 }
 
-window.fakeLogin = function(){
-const email=document.getElementById('email').value;
-if(email){
-localStorage.setItem('user',email);
-document.getElementById('status').innerText='Logged in as '+email;
-closeAccount();
+function renderMade(){
+document.getElementById('madeList').innerHTML =
+made.map(x=>`
+<div class="made-item">
+${x.dessert} — ${x.country}
+</div>
+`).join('') || 'Nothing saved yet.';
 }
-}
 
-const user=localStorage.getItem('user');
-if(user){
-document.getElementById('status').innerText='Logged in as '+user;
-}
-</script>
-
-<script type="module">
-import { firebaseConfig } from './firebase.js';
-
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
-import {
-getAuth,
-createUserWithEmailAndPassword,
-signInWithEmailAndPassword,
-signOut,
-onAuthStateChanged
-} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
-
-import {
-getFirestore,
-doc,
-setDoc,
-getDoc
-} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-
-window.firebaseCreate = async (email,password)=>{
-return await createUserWithEmailAndPassword(auth,email,password);
-};
-
-window.firebaseLogin = async (email,password)=>{
-return await signInWithEmailAndPassword(auth,email,password);
-};
-
-window.firebaseLogout = async ()=>{
-return await signOut(auth);
-};
-
-window.firebaseSaveMade = async (uid,made)=>{
-await setDoc(doc(db,'users',uid),{made});
-};
-
-window.firebaseLoadMade = async (uid)=>{
-const snap = await getDoc(doc(db,'users',uid));
-return snap.exists() ? snap.data().made || [] : [];
-};
-
-onAuthStateChanged(auth,(user)=>{
-const status=document.getElementById('status');
-if(status){
-status.innerText=user ? 'Logged in as '+user.email : 'Not logged in';
+onSnapshot(sharedDoc,(snap)=>{
+if(snap.exists()){
+made = snap.data().made || [];
+renderMade();
 }
 });
+
 </script>
 
 </body>

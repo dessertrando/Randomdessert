@@ -1,794 +1,152 @@
 [
   {
-    "country": "Afghanistan",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Albania",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Algeria",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Andorra",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Angola",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Argentina",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Armenia",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Australia",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Austria",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Azerbaijan",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Bahamas",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Bahrain",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Bangladesh",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Barbados",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Belarus",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Belgium",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Belize",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Benin",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Bhutan",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Bolivia",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Bosnia and Herzegovina",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Botswana",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Brazil",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Brunei",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Bulgaria",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Burkina Faso",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Burundi",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Cambodia",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Cameroon",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Canada",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Chile",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "China",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Colombia",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Costa Rica",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Croatia",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Cuba",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Cyprus",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Czech Republic",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Denmark",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Dominican Republic",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Ecuador",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Egypt",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "El Salvador",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Estonia",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Ethiopia",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Finland",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
     "country": "France",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Georgia",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Germany",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Ghana",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Greece",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Guatemala",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Haiti",
     "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Honduras",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Hungary",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Iceland",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "India",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Indonesia",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Iran",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Iraq",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Ireland",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Israel",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+    "recipe": "https://www.google.com/search?q=Creme+Brulee+recipe"
   },
   {
     "country": "Italy",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Jamaica",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Japan",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Jordan",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Kazakhstan",
     "dessert": "Mochi",
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
     "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
-    "country": "Kenya",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Kuwait",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Laos",
+    "country": "India",
     "dessert": "Gulab Jamun",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
     "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Latvia",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Lebanon",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Libya",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Lithuania",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Luxembourg",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Madagascar",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Malaysia",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Maldives",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Mexico",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Moldova",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Monaco",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Mongolia",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Morocco",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Myanmar",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Nepal",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Netherlands",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "New Zealand",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Nicaragua",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Nigeria",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "North Korea",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Norway",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Oman",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Pakistan",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Panama",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Paraguay",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Peru",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Philippines",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Poland",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Portugal",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Qatar",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Romania",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "Russia",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Saudi Arabia",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
-  },
-  {
-    "country": "Senegal",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Serbia",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Singapore",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Slovakia",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Slovenia",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Somalia",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
-  },
-  {
-    "country": "South Africa",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "South Korea",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Spain",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Sri Lanka",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Sweden",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "Switzerland",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "Syria",
     "dessert": "Churros",
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
     "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
-    "country": "Taiwan",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+    "country": "Portugal",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
   },
   {
-    "country": "Thailand",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Tunisia",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+    "country": "Austria",
+    "dessert": "Sachertorte",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sachertorte_DSC03027.JPG",
+    "recipe": "https://www.google.com/search?q=Sachertorte+recipe"
   },
   {
     "country": "Turkey",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
-  },
-  {
-    "country": "Uganda",
     "dessert": "Baklava",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
     "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
-    "country": "Ukraine",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
-  },
-  {
-    "country": "United Arab Emirates",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
-  },
-  {
-    "country": "United Kingdom",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
+    "country": "Mexico",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tres_leches_cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
   },
   {
     "country": "United States",
-    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Creme_Brulee.jpg",
-    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+    "dessert": "Apple Pie",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Apple_pie.jpg",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
-    "country": "Uruguay",
-    "dessert": "Gulab Jamun",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+    "country": "Germany",
+    "dessert": "Black Forest Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Black_Forest_cake.jpg",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
-    "country": "Uzbekistan",
-    "dessert": "Cannoli",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cannoli.jpg",
-    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
+    "country": "Belgium",
+    "dessert": "Belgian Waffles",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Waffles_with_Strawberries.jpg",
+    "recipe": "https://www.google.com/search?q=Belgian+Waffles+recipe"
   },
   {
-    "country": "Venezuela",
-    "dessert": "Macarons",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Macarons.jpg",
-    "recipe": "https://www.google.com/search?q=Macarons+recipe"
+    "country": "Argentina",
+    "dessert": "Alfajores",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Alfajores.jpg",
+    "recipe": "https://www.google.com/search?q=Alfajores+recipe"
+  },
+  {
+    "country": "Canada",
+    "dessert": "Butter Tarts",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Butter_Tarts.jpg",
+    "recipe": "https://www.google.com/search?q=Butter+Tarts+recipe"
+  },
+  {
+    "country": "Greece",
+    "dessert": "Loukoumades",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Loukoumades.jpg",
+    "recipe": "https://www.google.com/search?q=Loukoumades+recipe"
+  },
+  {
+    "country": "South Korea",
+    "dessert": "Bingsu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Patbingsu.jpg",
+    "recipe": "https://www.google.com/search?q=Bingsu+recipe"
+  },
+  {
+    "country": "China",
+    "dessert": "Mooncake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mooncake.jpg",
+    "recipe": "https://www.google.com/search?q=Mooncake+recipe"
+  },
+  {
+    "country": "Thailand",
+    "dessert": "Mango Sticky Rice",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Khao_niao_mamuang.jpg",
+    "recipe": "https://www.google.com/search?q=Mango+Sticky+Rice+recipe"
   },
   {
     "country": "Vietnam",
-    "dessert": "Baklava",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+    "dessert": "Che Ba Mau",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ch%C3%A8_ba_m%C3%A0u.jpg",
+    "recipe": "https://www.google.com/search?q=Che+Ba+Mau+recipe"
   },
   {
-    "country": "Yemen",
-    "dessert": "Tiramisu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+    "country": "Philippines",
+    "dessert": "Halo-Halo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Halo-halo_Filipino_dessert.jpg",
+    "recipe": "https://www.google.com/search?q=Halo-Halo+recipe"
   },
   {
-    "country": "Zambia",
-    "dessert": "Mochi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "country": "Brazil",
+    "dessert": "Brigadeiro",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Brigadeiros.jpg",
+    "recipe": "https://www.google.com/search?q=Brigadeiro+recipe"
   },
   {
-    "country": "Zimbabwe",
-    "dessert": "Churros",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros_con_chocolate.jpg",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
+    "country": "Peru",
+    "dessert": "Picarones",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Picarones.jpg",
+    "recipe": "https://www.google.com/search?q=Picarones+recipe"
+  },
+  {
+    "country": "Chile",
+    "dessert": "Kuchen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kuchen.jpg",
+    "recipe": "https://www.google.com/search?q=Kuchen+recipe"
+  },
+  {
+    "country": "Australia",
+    "dessert": "Pavlova",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pavlova_dessert.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
+  },
+  {
+    "country": "New Zealand",
+    "dessert": "Pavlova",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pavlova_dessert.jpg",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   }
 ]
