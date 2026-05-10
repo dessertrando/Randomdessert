@@ -1,836 +1,860 @@
 [
   {
     "country": "Afghanistan",
-    "dessert": "Firni",
-    "recipe": "https://www.google.com/search?q=Firni+recipe",
-    "flag": "🇦🇫"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Albania",
-    "dessert": "Baklava",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe",
-    "flag": "🇦🇱"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Algeria",
-    "dessert": "Makroud",
-    "recipe": "https://www.google.com/search?q=Makroud+recipe",
-    "flag": "🇩🇿"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Andorra",
-    "dessert": "Crema Andorrana",
-    "recipe": "https://www.google.com/search?q=Crema+Andorrana+recipe",
-    "flag": "🇦🇩"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Angola",
-    "dessert": "Cocada",
-    "recipe": "https://www.google.com/search?q=Cocada+recipe",
-    "flag": "🇦🇴"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Argentina",
-    "dessert": "Alfajores",
-    "recipe": "https://www.google.com/search?q=Alfajores+recipe",
-    "flag": "🇦🇷"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Armenia",
-    "dessert": "Gata",
-    "recipe": "https://www.google.com/search?q=Gata+recipe",
-    "flag": "🇦🇲"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Australia",
     "dessert": "Pavlova",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe",
-    "flag": "🇦🇺"
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Austria",
-    "dessert": "Sachertorte",
-    "recipe": "https://www.google.com/search?q=Sachertorte+recipe",
-    "flag": "🇦🇹"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Azerbaijan",
-    "dessert": "Pakhlava",
-    "recipe": "https://www.google.com/search?q=Pakhlava+recipe",
-    "flag": "🇦🇿"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Bahamas",
-    "dessert": "Guava Duff",
-    "recipe": "https://www.google.com/search?q=Guava+Duff+recipe",
-    "flag": "🇧🇸"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Bahrain",
-    "dessert": "Luqaimat",
-    "recipe": "https://www.google.com/search?q=Luqaimat+recipe",
-    "flag": "🇧🇭"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Bangladesh",
-    "dessert": "Rasgulla",
-    "recipe": "https://www.google.com/search?q=Rasgulla+recipe",
-    "flag": "🇧🇩"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Barbados",
-    "dessert": "Sweet Bread",
-    "recipe": "https://www.google.com/search?q=Sweet+Bread+recipe",
-    "flag": "🇧🇧"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Belarus",
-    "dessert": "Syrniki",
-    "recipe": "https://www.google.com/search?q=Syrniki+recipe",
-    "flag": "🇧🇾"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Belgium",
-    "dessert": "Belgian Waffle",
-    "recipe": "https://www.google.com/search?q=Belgian+Waffle+recipe",
-    "flag": "🇧🇪"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Belize",
-    "dessert": "Cassava Pudding",
-    "recipe": "https://www.google.com/search?q=Cassava+Pudding+recipe",
-    "flag": "🇧🇿"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Benin",
-    "dessert": "Akpan",
-    "recipe": "https://www.google.com/search?q=Akpan+recipe",
-    "flag": "🇧🇯"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Bhutan",
-    "dessert": "Khapse",
-    "recipe": "https://www.google.com/search?q=Khapse+recipe",
-    "flag": "🇧🇹"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Bolivia",
-    "dessert": "Buñuelos",
-    "recipe": "https://www.google.com/search?q=Buñuelos+recipe",
-    "flag": "🇧🇴"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Bosnia and Herzegovina",
-    "dessert": "Tufahija",
-    "recipe": "https://www.google.com/search?q=Tufahija+recipe",
-    "flag": "🇧🇦"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Botswana",
-    "dessert": "Magwinya",
-    "recipe": "https://www.google.com/search?q=Magwinya+recipe",
-    "flag": "🇧🇼"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Brazil",
-    "dessert": "Brigadeiro",
-    "recipe": "https://www.google.com/search?q=Brigadeiro+recipe",
-    "flag": "🇧🇷"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Brunei",
-    "dessert": "Kuih Mor",
-    "recipe": "https://www.google.com/search?q=Kuih+Mor+recipe",
-    "flag": "🇧🇳"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Bulgaria",
-    "dessert": "Banitsa",
-    "recipe": "https://www.google.com/search?q=Banitsa+recipe",
-    "flag": "🇧🇬"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
+  },
+  {
+    "country": "Burkina Faso",
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Burundi",
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Cambodia",
-    "dessert": "Num Ansom",
-    "recipe": "https://www.google.com/search?q=Num+Ansom+recipe",
-    "flag": "🇰🇭"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Cameroon",
-    "dessert": "Puff Puff",
-    "recipe": "https://www.google.com/search?q=Puff+Puff+recipe",
-    "flag": "🇨🇲"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Canada",
-    "dessert": "Butter Tarts",
-    "recipe": "https://www.google.com/search?q=Butter+Tarts+recipe",
-    "flag": "🇨🇦"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Chile",
-    "dessert": "Kuchen",
-    "recipe": "https://www.google.com/search?q=Kuchen+recipe",
-    "flag": "🇨🇱"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "China",
-    "dessert": "Mooncake",
-    "recipe": "https://www.google.com/search?q=Mooncake+recipe",
-    "flag": "🇨🇳"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Colombia",
-    "dessert": "Tres Leches Cake",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe",
-    "flag": "🇨🇴"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Costa Rica",
-    "dessert": "Arroz con Leche",
-    "recipe": "https://www.google.com/search?q=Arroz+con+Leche+recipe",
-    "flag": "🇨🇷"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Croatia",
-    "dessert": "Fritule",
-    "recipe": "https://www.google.com/search?q=Fritule+recipe",
-    "flag": "🇭🇷"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Cuba",
-    "dessert": "Flan",
-    "recipe": "https://www.google.com/search?q=Flan+recipe",
-    "flag": "🇨🇺"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Cyprus",
-    "dessert": "Loukoumades",
-    "recipe": "https://www.google.com/search?q=Loukoumades+recipe",
-    "flag": "🇨🇾"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Czech Republic",
-    "dessert": "Koláče",
-    "recipe": "https://www.google.com/search?q=Koláče+recipe",
-    "flag": "🇨🇿"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Denmark",
-    "dessert": "Danish Pastry",
-    "recipe": "https://www.google.com/search?q=Danish+Pastry+recipe",
-    "flag": "🇩🇰"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Dominican Republic",
-    "dessert": "Habichuelas con Dulce",
-    "recipe": "https://www.google.com/search?q=Habichuelas+con+Dulce+recipe",
-    "flag": "🇩🇴"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Ecuador",
-    "dessert": "Espumilla",
-    "recipe": "https://www.google.com/search?q=Espumilla+recipe",
-    "flag": "🇪🇨"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Egypt",
-    "dessert": "Basbousa",
-    "recipe": "https://www.google.com/search?q=Basbousa+recipe",
-    "flag": "🇪🇬"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "El Salvador",
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Estonia",
-    "dessert": "Kama",
-    "recipe": "https://www.google.com/search?q=Kama+recipe",
-    "flag": "🇪🇪"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Ethiopia",
-    "dessert": "Dabo Kolo",
-    "recipe": "https://www.google.com/search?q=Dabo+Kolo+recipe",
-    "flag": "🇪🇹"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Finland",
-    "dessert": "Korvapuusti",
-    "recipe": "https://www.google.com/search?q=Korvapuusti+recipe",
-    "flag": "🇫🇮"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "France",
-    "dessert": "Macaron",
-    "recipe": "https://www.google.com/search?q=Macaron+recipe",
-    "flag": "🇫🇷"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Georgia",
-    "dessert": "Churchkhela",
-    "recipe": "https://www.google.com/search?q=Churchkhela+recipe",
-    "flag": "🇬🇪"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Germany",
-    "dessert": "Black Forest Cake",
-    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe",
-    "flag": "🇩🇪"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Ghana",
-    "dessert": "Bofrot",
-    "recipe": "https://www.google.com/search?q=Bofrot+recipe",
-    "flag": "🇬🇭"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Greece",
-    "dessert": "Baklava",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe",
-    "flag": "🇬🇷"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Guatemala",
-    "dessert": "Rellenitos",
-    "recipe": "https://www.google.com/search?q=Rellenitos+recipe",
-    "flag": "🇬🇹"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Haiti",
-    "dessert": "Pain Patate",
-    "recipe": "https://www.google.com/search?q=Pain+Patate+recipe",
-    "flag": "🇭🇹"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Honduras",
-    "dessert": "Tres Leches Cake",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe",
-    "flag": "🇭🇳"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Hungary",
-    "dessert": "Dobos Torte",
-    "recipe": "https://www.google.com/search?q=Dobos+Torte+recipe",
-    "flag": "🇭🇺"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Iceland",
-    "dessert": "Skyr Cake",
-    "recipe": "https://www.google.com/search?q=Skyr+Cake+recipe",
-    "flag": "🇮🇸"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "India",
-    "dessert": "Gulab Jamun",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe",
-    "flag": "🇮🇳"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Indonesia",
-    "dessert": "Klepon",
-    "recipe": "https://www.google.com/search?q=Klepon+recipe",
-    "flag": "🇮🇩"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Iran",
-    "dessert": "Zoolbia Bamieh",
-    "recipe": "https://www.google.com/search?q=Zoolbia+Bamieh+recipe",
-    "flag": "🇮🇷"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Iraq",
-    "dessert": "Kleicha",
-    "recipe": "https://www.google.com/search?q=Kleicha+recipe",
-    "flag": "🇮🇶"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Ireland",
-    "dessert": "Bread Pudding",
-    "recipe": "https://www.google.com/search?q=Bread+Pudding+recipe",
-    "flag": "🇮🇪"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Israel",
-    "dessert": "Rugelach",
-    "recipe": "https://www.google.com/search?q=Rugelach+recipe",
-    "flag": "🇮🇱"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Italy",
-    "dessert": "Tiramisu",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe",
-    "flag": "🇮🇹"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Jamaica",
-    "dessert": "Rum Cake",
-    "recipe": "https://www.google.com/search?q=Rum+Cake+recipe",
-    "flag": "🇯🇲"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Japan",
-    "dessert": "Mochi",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe",
-    "flag": "🇯🇵"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Jordan",
-    "dessert": "Kunafa",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe",
-    "flag": "🇯🇴"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Kazakhstan",
-    "dessert": "Baursak",
-    "recipe": "https://www.google.com/search?q=Baursak+recipe",
-    "flag": "🇰🇿"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Kenya",
-    "dessert": "Mandazi",
-    "recipe": "https://www.google.com/search?q=Mandazi+recipe",
-    "flag": "🇰🇪"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Kuwait",
-    "dessert": "Luqaimat",
-    "recipe": "https://www.google.com/search?q=Luqaimat+recipe",
-    "flag": "🇰🇼"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Laos",
-    "dessert": "Khao Tom",
-    "recipe": "https://www.google.com/search?q=Khao+Tom+recipe",
-    "flag": "🇱🇦"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Latvia",
-    "dessert": "Sklandrausis",
-    "recipe": "https://www.google.com/search?q=Sklandrausis+recipe",
-    "flag": "🇱🇻"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Lebanon",
-    "dessert": "Maamoul",
-    "recipe": "https://www.google.com/search?q=Maamoul+recipe",
-    "flag": "🇱🇧"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Libya",
-    "dessert": "Asida",
-    "recipe": "https://www.google.com/search?q=Asida+recipe",
-    "flag": "🇱🇾"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Lithuania",
-    "dessert": "Šakotis",
-    "recipe": "https://www.google.com/search?q=Šakotis+recipe",
-    "flag": "🇱🇹"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Luxembourg",
-    "dessert": "Quetschentaart",
-    "recipe": "https://www.google.com/search?q=Quetschentaart+recipe",
-    "flag": "🇱🇺"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Madagascar",
-    "dessert": "Koba",
-    "recipe": "https://www.google.com/search?q=Koba+recipe",
-    "flag": "🇲🇬"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Malaysia",
-    "dessert": "Kuih Lapis",
-    "recipe": "https://www.google.com/search?q=Kuih+Lapis+recipe",
-    "flag": "🇲🇾"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Maldives",
-    "dessert": "Bondibaiy",
-    "recipe": "https://www.google.com/search?q=Bondibaiy+recipe",
-    "flag": "🇲🇻"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Mali",
-    "dessert": "Degue",
-    "recipe": "https://www.google.com/search?q=Degue+recipe",
-    "flag": "🇲🇱"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Malta",
-    "dessert": "Kannoli",
-    "recipe": "https://www.google.com/search?q=Kannoli+recipe",
-    "flag": "🇲🇹"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Mauritius",
-    "dessert": "Napolitaine",
-    "recipe": "https://www.google.com/search?q=Napolitaine+recipe",
-    "flag": "🇲🇺"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Mexico",
-    "dessert": "Churros",
-    "recipe": "https://www.google.com/search?q=Churros+recipe",
-    "flag": "🇲🇽"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Moldova",
-    "dessert": "Placinte",
-    "recipe": "https://www.google.com/search?q=Placinte+recipe",
-    "flag": "🇲🇩"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Mongolia",
-    "dessert": "Boortsog",
-    "recipe": "https://www.google.com/search?q=Boortsog+recipe",
-    "flag": "🇲🇳"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Montenegro",
-    "dessert": "Priganice",
-    "recipe": "https://www.google.com/search?q=Priganice+recipe",
-    "flag": "🇲🇪"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Morocco",
-    "dessert": "Chebakia",
-    "recipe": "https://www.google.com/search?q=Chebakia+recipe",
-    "flag": "🇲🇦"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Myanmar",
-    "dessert": "Shwe Yin Aye",
-    "recipe": "https://www.google.com/search?q=Shwe+Yin+Aye+recipe",
-    "flag": "🇲🇲"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Namibia",
-    "dessert": "Melktert",
-    "recipe": "https://www.google.com/search?q=Melktert+recipe",
-    "flag": "🇳🇦"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Nepal",
-    "dessert": "Sel Roti",
-    "recipe": "https://www.google.com/search?q=Sel+Roti+recipe",
-    "flag": "🇳🇵"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Netherlands",
-    "dessert": "Stroopwafel",
-    "recipe": "https://www.google.com/search?q=Stroopwafel+recipe",
-    "flag": "🇳🇱"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "New Zealand",
-    "dessert": "Pavlova",
-    "recipe": "https://www.google.com/search?q=Pavlova+recipe",
-    "flag": "🇳🇿"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Nicaragua",
-    "dessert": "Tres Leches Cake",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe",
-    "flag": "🇳🇮"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
+  },
+  {
+    "country": "Niger",
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Nigeria",
-    "dessert": "Puff Puff",
-    "recipe": "https://www.google.com/search?q=Puff+Puff+recipe",
-    "flag": "🇳🇬"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "North Korea",
-    "dessert": "Yakgwa",
-    "recipe": "https://www.google.com/search?q=Yakgwa+recipe",
-    "flag": "🇰🇵"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "North Macedonia",
-    "dessert": "Tulumba",
-    "recipe": "https://www.google.com/search?q=Tulumba+recipe",
-    "flag": "🇲🇰"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Norway",
-    "dessert": "Krumkake",
-    "recipe": "https://www.google.com/search?q=Krumkake+recipe",
-    "flag": "🇳🇴"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Oman",
-    "dessert": "Halwa",
-    "recipe": "https://www.google.com/search?q=Halwa+recipe",
-    "flag": "🇴🇲"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Pakistan",
-    "dessert": "Kheer",
-    "recipe": "https://www.google.com/search?q=Kheer+recipe",
-    "flag": "🇵🇰"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Panama",
-    "dessert": "Raspao",
-    "recipe": "https://www.google.com/search?q=Raspao+recipe",
-    "flag": "🇵🇦"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Papua New Guinea",
-    "dessert": "Sago Pudding",
-    "recipe": "https://www.google.com/search?q=Sago+Pudding+recipe",
-    "flag": "🇵🇬"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Paraguay",
-    "dessert": "Dulce de Leche Cake",
-    "recipe": "https://www.google.com/search?q=Dulce+de+Leche+Cake+recipe",
-    "flag": "🇵🇾"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Peru",
-    "dessert": "Picarones",
-    "recipe": "https://www.google.com/search?q=Picarones+recipe",
-    "flag": "🇵🇪"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Philippines",
-    "dessert": "Halo-Halo",
-    "recipe": "https://www.google.com/search?q=Halo-Halo+recipe",
-    "flag": "🇵🇭"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Poland",
-    "dessert": "Pączki",
-    "recipe": "https://www.google.com/search?q=Pączki+recipe",
-    "flag": "🇵🇱"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Portugal",
-    "dessert": "Pastel de Nata",
-    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe",
-    "flag": "🇵🇹"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Qatar",
-    "dessert": "Luqaimat",
-    "recipe": "https://www.google.com/search?q=Luqaimat+recipe",
-    "flag": "🇶🇦"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Romania",
-    "dessert": "Papanași",
-    "recipe": "https://www.google.com/search?q=Papanași+recipe",
-    "flag": "🇷🇴"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Russia",
-    "dessert": "Syrniki",
-    "recipe": "https://www.google.com/search?q=Syrniki+recipe",
-    "flag": "🇷🇺"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Rwanda",
-    "dessert": "Mandazi",
-    "recipe": "https://www.google.com/search?q=Mandazi+recipe",
-    "flag": "🇷🇼"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Saudi Arabia",
-    "dessert": "Kunafa",
-    "recipe": "https://www.google.com/search?q=Kunafa+recipe",
-    "flag": "🇸🇦"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Senegal",
-    "dessert": "Thiakry",
-    "recipe": "https://www.google.com/search?q=Thiakry+recipe",
-    "flag": "🇸🇳"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Serbia",
-    "dessert": "Krempita",
-    "recipe": "https://www.google.com/search?q=Krempita+recipe",
-    "flag": "🇷🇸"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "Singapore",
-    "dessert": "Ice Kachang",
-    "recipe": "https://www.google.com/search?q=Ice+Kachang+recipe",
-    "flag": "🇸🇬"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "Slovakia",
-    "dessert": "Trdelník",
-    "recipe": "https://www.google.com/search?q=Trdelník+recipe",
-    "flag": "🇸🇰"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "Slovenia",
-    "dessert": "Potica",
-    "recipe": "https://www.google.com/search?q=Potica+recipe",
-    "flag": "🇸🇮"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Somalia",
-    "dessert": "Xalwo",
-    "recipe": "https://www.google.com/search?q=Xalwo+recipe",
-    "flag": "🇸🇴"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "South Africa",
-    "dessert": "Malva Pudding",
-    "recipe": "https://www.google.com/search?q=Malva+Pudding+recipe",
-    "flag": "🇿🇦"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "South Korea",
-    "dessert": "Bingsu",
-    "recipe": "https://www.google.com/search?q=Bingsu+recipe",
-    "flag": "🇰🇷"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Spain",
-    "dessert": "Churros",
-    "recipe": "https://www.google.com/search?q=Churros+recipe",
-    "flag": "🇪🇸"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Sri Lanka",
-    "dessert": "Watalappam",
-    "recipe": "https://www.google.com/search?q=Watalappam+recipe",
-    "flag": "🇱🇰"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Sudan",
-    "dessert": "Basbousa",
-    "recipe": "https://www.google.com/search?q=Basbousa+recipe",
-    "flag": "🇸🇩"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Sweden",
-    "dessert": "Cinnamon Buns",
-    "recipe": "https://www.google.com/search?q=Cinnamon+Buns+recipe",
-    "flag": "🇸🇪"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   },
   {
     "country": "Switzerland",
-    "dessert": "Swiss Chocolate",
-    "recipe": "https://www.google.com/search?q=Swiss+Chocolate+recipe",
-    "flag": "🇨🇭"
+    "dessert": "Churros",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
   },
   {
     "country": "Syria",
-    "dessert": "Baklava",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe",
-    "flag": "🇸🇾"
+    "dessert": "Cheesecake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cheesecake+recipe"
   },
   {
     "country": "Taiwan",
-    "dessert": "Pineapple Cake",
-    "recipe": "https://www.google.com/search?q=Pineapple+Cake+recipe",
-    "flag": "🇹🇼"
+    "dessert": "Mochi",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
   },
   {
     "country": "Tajikistan",
-    "dessert": "Halva",
-    "recipe": "https://www.google.com/search?q=Halva+recipe",
-    "flag": "🇹🇯"
+    "dessert": "Gelato",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gelato+recipe"
   },
   {
     "country": "Tanzania",
-    "dessert": "Mandazi",
-    "recipe": "https://www.google.com/search?q=Mandazi+recipe",
-    "flag": "🇹🇿"
+    "dessert": "Pavlova",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Pavlova+recipe"
   },
   {
     "country": "Thailand",
-    "dessert": "Mango Sticky Rice",
-    "recipe": "https://www.google.com/search?q=Mango+Sticky+Rice+recipe",
-    "flag": "🇹🇭"
+    "dessert": "Flan",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Flan+recipe"
   },
   {
     "country": "Tunisia",
-    "dessert": "Makroud",
-    "recipe": "https://www.google.com/search?q=Makroud+recipe",
-    "flag": "🇹🇳"
+    "dessert": "Tres Leches",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+recipe"
   },
   {
     "country": "Turkey",
-    "dessert": "Baklava",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe",
-    "flag": "🇹🇷"
+    "dessert": "Apple Pie",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Apple+Pie+recipe"
   },
   {
     "country": "Uganda",
-    "dessert": "Mandazi",
-    "recipe": "https://www.google.com/search?q=Mandazi+recipe",
-    "flag": "🇺🇬"
+    "dessert": "Sticky Toffee Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe"
   },
   {
     "country": "Ukraine",
-    "dessert": "Medivnyk",
-    "recipe": "https://www.google.com/search?q=Medivnyk+recipe",
-    "flag": "🇺🇦"
+    "dessert": "Cannoli",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Cannoli+recipe"
   },
   {
     "country": "United Arab Emirates",
-    "dessert": "Luqaimat",
-    "recipe": "https://www.google.com/search?q=Luqaimat+recipe",
-    "flag": "🇦🇪"
+    "dessert": "Macarons",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Macarons+recipe"
   },
   {
     "country": "United Kingdom",
-    "dessert": "Sticky Toffee Pudding",
-    "recipe": "https://www.google.com/search?q=Sticky+Toffee+Pudding+recipe",
-    "flag": "🇬🇧"
+    "dessert": "Black Forest Cake",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Black+Forest+Cake+recipe"
   },
   {
     "country": "United States",
-    "dessert": "Chocolate Chip Cookies",
-    "recipe": "https://www.google.com/search?q=Chocolate+Chip+Cookies+recipe",
-    "flag": "🇺🇸"
+    "dessert": "Rice Pudding",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Rice+Pudding+recipe"
   },
   {
     "country": "Uruguay",
-    "dessert": "Chajá",
-    "recipe": "https://www.google.com/search?q=Chajá+recipe",
-    "flag": "🇺🇾"
+    "dessert": "Kunafa",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Kunafa+recipe"
   },
   {
     "country": "Uzbekistan",
-    "dessert": "Chak-Chak",
-    "recipe": "https://www.google.com/search?q=Chak-Chak+recipe",
-    "flag": "🇺🇿"
+    "dessert": "Halva",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Halva+recipe"
   },
   {
     "country": "Venezuela",
-    "dessert": "Quesillo",
-    "recipe": "https://www.google.com/search?q=Quesillo+recipe",
-    "flag": "🇻🇪"
+    "dessert": "Gulab Jamun",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
   },
   {
     "country": "Vietnam",
-    "dessert": "Chè Ba Màu",
-    "recipe": "https://www.google.com/search?q=Chè+Ba+Màu+recipe",
-    "flag": "🇻🇳"
+    "dessert": "Bibingka",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Bibingka+recipe"
   },
   {
     "country": "Yemen",
-    "dessert": "Bint Al Sahn",
-    "recipe": "https://www.google.com/search?q=Bint+Al+Sahn+recipe",
-    "flag": "🇾🇪"
+    "dessert": "Baklava",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
   },
   {
     "country": "Zambia",
-    "dessert": "Vitumbuwa",
-    "recipe": "https://www.google.com/search?q=Vitumbuwa+recipe",
-    "flag": "🇿🇲"
+    "dessert": "Tiramisu",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "Zimbabwe",
-    "dessert": "Maputi Cookies",
-    "recipe": "https://www.google.com/search?q=Maputi+Cookies+recipe",
-    "flag": "🇿🇼"
+    "dessert": "Crème Brûlée",
+    "flag": "🏳️",
+    "recipe": "https://www.google.com/search?q=Crème+Brûlée+recipe"
   }
 ]

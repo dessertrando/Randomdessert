@@ -4,314 +4,109 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dessert Explorer</title>
-
 <style>
 body{
-margin:0;
-font-family:-apple-system,BlinkMacSystemFont,sans-serif;
 background:#020617;
 color:white;
+font-family:Arial,sans-serif;
+margin:0;
+padding:24px;
 }
-
 .container{
 max-width:900px;
 margin:auto;
-padding:24px;
 }
-
-h1{
-font-size:56px;
-margin-bottom:8px;
-}
-
-.subtitle{
-color:#94a3b8;
-margin-bottom:24px;
-font-size:22px;
-}
-
-.topbar{
-display:flex;
-gap:12px;
-margin-bottom:24px;
-flex-wrap:wrap;
-}
-
-button{
-border:none;
-cursor:pointer;
-font-weight:700;
-}
-
-.btn{
-padding:16px 22px;
-border-radius:18px;
-font-size:18px;
-}
-
-.random{
-background:white;
-color:black;
-}
-
-.made{
-background:#172554;
-color:white;
-}
-
 .card{
 background:#0f172a;
-border:1px solid rgba(255,255,255,0.08);
-border-radius:28px;
-overflow:hidden;
-margin-bottom:24px;
-}
-
-.hero-image{
-width:100%;
-height:340px;
-object-fit:cover;
-display:block;
-background:#111827;
-}
-
-.content{
+border-radius:24px;
 padding:24px;
 }
-
-.flag{
-font-size:70px;
-}
-
-.title{
-font-size:52px;
-font-weight:800;
-margin-top:12px;
-}
-
-.country{
-font-size:28px;
-color:#cbd5e1;
-margin-top:8px;
-}
-
-.recipe{
-display:block;
-margin-top:24px;
-padding:18px;
+img{
+width:100%;
+height:320px;
+object-fit:cover;
 border-radius:18px;
-text-align:center;
-text-decoration:none;
-color:white;
-font-size:22px;
-font-weight:700;
-background:linear-gradient(90deg,#f97316,#ec4899);
 }
-
+button{
+padding:14px 18px;
+border:none;
+border-radius:14px;
+cursor:pointer;
+font-weight:bold;
+margin-top:18px;
+}
 .search{
 width:100%;
-padding:18px;
-font-size:18px;
-border-radius:18px;
-border:1px solid rgba(255,255,255,0.08);
-background:#111827;
-color:white;
-margin-bottom:20px;
-}
-
-.chips{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-}
-
-.chip{
-background:#172554;
-color:white;
-padding:12px 16px;
-border-radius:999px;
-font-size:16px;
-}
-
-.panel{
-display:none;
-background:#0f172a;
-padding:20px;
-border-radius:24px;
-margin-top:20px;
-}
-
-.made-item{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:12px;
-background:#111827;
+padding:16px;
+margin:20px 0;
 border-radius:14px;
-margin-bottom:10px;
-}
-
-.delete{
-background:#dc2626;
-color:white;
-padding:8px 12px;
-border-radius:10px;
-}
-
-@media(max-width:700px){
-h1{font-size:42px;}
-.title{font-size:40px;}
-.hero-image{height:260px;}
+border:none;
 }
 </style>
 </head>
-
 <body>
 
 <div class="container">
-
 <h1>🍰 Dessert Explorer</h1>
-<div class="subtitle">Explore desserts from 191 countries</div>
-
-<div class="topbar">
-<button class="btn random" onclick="randomDessert()">🎲 Random Dessert</button>
-<button class="btn made" onclick="addCurrentDessert()">✅ Made</button>
-</div>
+<p>190-country cleaned dessert dataset</p>
 
 <div class="card">
+<img id="dessert-image" src="https://picsum.photos/1200/800">
+<h2 id="dessert-name"></h2>
+<h3 id="country-name"></h3>
 
-<img id="hero-image" class="hero-image" alt="Dessert image">
-
-<div class="content">
-<div id="hero-flag" class="flag"></div>
-<div id="hero-title" class="title"></div>
-<div id="hero-country" class="country"></div>
-
-<a id="recipe-link" class="recipe" target="_blank">View Recipe</a>
+<a id="recipe-link" target="_blank">
+<button>View Recipe</button>
+</a>
 </div>
 
-</div>
+<input class="search" id="search" placeholder="Search countries or desserts">
 
-<input id="search" class="search" placeholder="Search countries or desserts...">
-
-<div id="chips" class="chips"></div>
-
-<div id="made-panel" class="panel">
-<h2>Desserts We've Made</h2>
-<div id="made-list"></div>
-</div>
-
+<div id="results"></div>
 </div>
 
 <script>
 let desserts = [];
-let selected = null;
-let madeItems = JSON.parse(localStorage.getItem('madeDesserts') || '[]');
-
-window.addEventListener('load', ()=>{
-  if(madeItems.length > 0){
-    document.getElementById('made-panel').style.display = 'block';
-  }
-});
-
-
-function imageUrl(name){
-return "https://loremflickr.com/1200/800/" + encodeURIComponent(name + ",dessert");
-}
+let current = null;
 
 async function init(){
-const res = await fetch('desserts.json');
-desserts = await res.json();
+ const res = await fetch('desserts.json');
+ desserts = await res.json();
 
-selected = desserts[0];
+ current = desserts[0];
+ renderCurrent();
+ renderList(desserts);
 
-renderSelected();
-renderChips(desserts.slice(0,24));
-renderMade();
+ document.getElementById('search').addEventListener('input', e=>{
+   const q = e.target.value.toLowerCase();
 
-document.getElementById('search').addEventListener('input', e=>{
-const q = e.target.value.toLowerCase();
-
-const filtered = desserts.filter(d =>
-d.country.toLowerCase().includes(q) ||
-d.dessert.toLowerCase().includes(q)
-);
-
-renderChips(filtered.slice(0,24));
-});
+   renderList(
+      desserts.filter(d =>
+         d.country.toLowerCase().includes(q) ||
+         d.dessert.toLowerCase().includes(q)
+      )
+   );
+ });
 }
 
-function renderSelected(){
-document.getElementById('hero-title').textContent = selected.dessert;
-document.getElementById('hero-country').textContent = selected.country;
-document.getElementById('hero-flag').textContent = selected.flag || '🏳️';
-document.getElementById('recipe-link').href = selected.recipe;
-
-const img = document.getElementById('hero-image');
-img.src = imageUrl(selected.dessert);
-
-img.onerror = function(){
-this.src = 'https://picsum.photos/1200/800';
-}
+function renderCurrent(){
+ document.getElementById('dessert-name').textContent = current.dessert;
+ document.getElementById('country-name').textContent = current.country;
+ document.getElementById('recipe-link').href = current.recipe;
 }
 
-function renderChips(items){
-document.getElementById('chips').innerHTML = items.map(item => `
-<button class="chip" onclick='pick(${JSON.stringify(JSON.stringify(item))})'>
-${item.flag || '🏳️'} ${item.country}
-</button>
-`).join('');
+function renderList(items){
+ document.getElementById('results').innerHTML = items.slice(0,50).map(item => `
+   <button onclick='pick(${JSON.stringify(JSON.stringify(item))})'>
+      ${item.country} — ${item.dessert}
+   </button>
+ `).join('<br>');
 }
 
 function pick(item){
-selected = JSON.parse(item);
-renderSelected();
-window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function randomDessert(){
-selected = desserts[Math.floor(Math.random()*desserts.length)];
-renderSelected();
-window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function addCurrentDessert(){
-const text = `${selected.flag || '🏳️'} ${selected.dessert} — ${selected.country}`;
-
-if(!madeItems.includes(text)){
-madeItems.unshift(text);
-localStorage.setItem('madeDesserts', JSON.stringify(madeItems));
-}
-
-document.getElementById('made-panel').style.display = 'block';
-renderMade();
-
-document.getElementById('made-panel').scrollIntoView({behavior:'smooth'});
-}
-
-function deleteMade(index){
-madeItems.splice(index,1);
-localStorage.setItem('madeDesserts', JSON.stringify(madeItems));
-renderMade();
-}
-
-function renderMade(){
-
-localStorage.setItem('madeDesserts', JSON.stringify(madeItems));
-
-const list = document.getElementById('made-list');
-
-if(madeItems.length === 0){
-list.innerHTML = '<div style="color:#94a3b8;">No desserts saved yet.</div>';
-return;
-}
-
-list.innerHTML = madeItems.map((item,index)=>`
-<div class="made-item">
-<span>${item}</span>
-<button class="delete" onclick="deleteMade(${index})">Delete</button>
-</div>
-`).join('');
+ current = JSON.parse(item);
+ renderCurrent();
+ window.scrollTo({top:0,behavior:'smooth'});
 }
 
 init();
