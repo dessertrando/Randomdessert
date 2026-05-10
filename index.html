@@ -3,43 +3,41 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dessert Explorer</title>
 <style>
-body{background:#020617;color:white;font-family:Arial;margin:0;padding:20px}
+body{background:#020617;color:white;font-family:Arial;padding:20px;margin:0}
 .container{max-width:900px;margin:auto}
-.buttons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
-button{padding:16px 20px;border:none;border-radius:18px;font-weight:bold;cursor:pointer}
-.primary{background:white;color:black}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+button{padding:18px;border:none;border-radius:18px;font-weight:bold;font-size:18px}
+.primary{background:white}
 .secondary{background:#172554;color:white}
-.card{background:#0f172a;border-radius:28px;overflow:hidden}
-.hero{width:100%;height:360px;object-fit:cover;background:#111827}
+.card{background:#0f172a;border-radius:28px;overflow:hidden;margin-top:20px}
+img{width:100%;height:340px;object-fit:cover;background:#111827}
 .content{padding:24px}
-.recipe{display:inline-block;margin-top:16px;padding:16px 24px;border-radius:18px;background:linear-gradient(90deg,#f97316,#ec4899);color:white;text-decoration:none}
+.recipe{display:inline-block;padding:16px 24px;border-radius:18px;color:white;text-decoration:none;background:linear-gradient(90deg,#f97316,#ec4899)}
 .search{width:100%;padding:18px;border:none;border-radius:18px;margin-top:20px}
-.item{background:#111827;padding:16px;border-radius:16px;margin-top:10px;cursor:pointer}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center}
-.box{background:#111827;padding:24px;border-radius:24px;width:90%;max-width:400px}
-input{width:100%;padding:14px;border:none;border-radius:14px;margin-top:10px}
-.made-item{background:#172554;padding:12px;border-radius:12px;margin-top:10px}
+.item{background:#111827;padding:14px;border-radius:14px;margin-top:10px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center}
+.box{background:#111827;padding:20px;border-radius:20px;width:90%;max-width:400px}
+input{width:100%;padding:14px;margin-top:10px;border:none;border-radius:12px}
 </style>
 </head>
 <body>
 <div class="container">
 <h1>🍰 Dessert Explorer</h1>
-<p>191-country Firebase build</p>
 
-<div class="buttons">
+<div class="grid">
 <button class="primary" onclick="randomDessert()">🎲 Random Dessert</button>
 <button class="secondary" onclick="markMade()">✅ Made</button>
-<button class="secondary" onclick="openMade()">📘 What I've Made</button>
+<button class="secondary" onclick="showMade()">📘 What I've Made</button>
 <button class="secondary" onclick="openAccount()">👤 Account</button>
 </div>
 
-<div id="status">Not logged in</div>
+<p id="status">Guest mode active</p>
 
 <div class="card">
-<img id="hero" class="hero">
+<img id="hero">
 <div class="content">
 <h2 id="dessert"></h2>
 <h3 id="country"></h3>
@@ -47,63 +45,31 @@ input{width:100%;padding:14px;border:none;border-radius:14px;margin-top:10px}
 </div>
 </div>
 
-<input class="search" id="search" placeholder="Search desserts or countries">
+<input id="search" class="search" placeholder="Search desserts or countries">
 <div id="list"></div>
-</div>
 
 <div id="accountModal" class="modal">
 <div class="box">
 <h2>Account</h2>
 <input id="email" placeholder="Email">
-<input id="password" type="password" placeholder="Password">
-<button class="primary" onclick="registerUser()">Create Account</button>
-<button class="secondary" onclick="loginUser()">Login</button>
-<button class="secondary" onclick="logoutUser()">Logout</button>
+<input id="password" placeholder="Password" type="password">
+<button class="primary" onclick="fakeLogin()">Login / Create</button>
 <button class="secondary" onclick="closeAccount()">Close</button>
 </div>
 </div>
-
-<div id="madeModal" class="modal">
-<div class="box">
-<h2>Made Desserts</h2>
-<div id="madeList"></div>
-<button class="secondary" onclick="closeMade()">Close</button>
-</div>
 </div>
 
-<script type="module">
-import { firebaseConfig } from './firebase-config.js';
-
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
-import {
-getAuth,
-createUserWithEmailAndPassword,
-signInWithEmailAndPassword,
-signOut,
-onAuthStateChanged
-} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
-
-import {
-getFirestore,
-doc,
-setDoc,
-getDoc
-} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-
+<script>
 let desserts=[];
 let current=null;
-let currentUser=null;
-let made=[];
 
-fetch('./desserts.json').then(r=>r.json()).then(d=>{
-desserts=d;
-current=d[0];
+fetch('./desserts.json')
+.then(r=>r.json())
+.then(data=>{
+desserts=data;
+current=desserts[0];
 render();
-renderList(d);
+renderList(desserts);
 });
 
 function render(){
@@ -113,19 +79,19 @@ document.getElementById('country').innerText=current.country;
 document.getElementById('recipe').href=current.recipe;
 }
 
-window.randomDessert=function(){
+function randomDessert(){
 current=desserts[Math.floor(Math.random()*desserts.length)];
 render();
 }
 
 function renderList(items){
-document.getElementById('list').innerHTML=items.slice(0,40).map(i=>`
-<div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
+document.getElementById('list').innerHTML=items.map(i=>`
+<div class='item' onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
 <b>${i.dessert}</b><br>${i.country}
 </div>`).join('');
 }
 
-window.pick=function(v){
+function pick(v){
 current=JSON.parse(v);
 render();
 window.scrollTo({top:0,behavior:'smooth'});
@@ -136,73 +102,40 @@ const q=e.target.value.toLowerCase();
 renderList(desserts.filter(d=>d.country.toLowerCase().includes(q)||d.dessert.toLowerCase().includes(q)));
 });
 
-window.openAccount=()=>document.getElementById('accountModal').style.display='flex';
-window.closeAccount=()=>document.getElementById('accountModal').style.display='none';
-
-window.openMade=()=>{
-renderMade();
-document.getElementById('madeModal').style.display='flex';
-};
-
-window.closeMade=()=>document.getElementById('madeModal').style.display='none';
-
-window.registerUser=async()=>{
-try{
-await createUserWithEmailAndPassword(
-auth,
-document.getElementById('email').value,
-document.getElementById('password').value
-);
-alert('Account created');
-}catch(e){alert(e.message)}
-}
-
-window.loginUser=async()=>{
-try{
-await signInWithEmailAndPassword(
-auth,
-document.getElementById('email').value,
-document.getElementById('password').value
-);
-closeAccount();
-}catch(e){alert(e.message)}
-}
-
-window.logoutUser=async()=>{await signOut(auth)}
-
-onAuthStateChanged(auth, async user=>{
-currentUser=user;
-
-if(user){
-document.getElementById('status').innerText='Logged in as '+user.email;
-
-const snap = await getDoc(doc(db,'users',user.uid));
-if(snap.exists()) made=snap.data().made || [];
-
-}else{
-document.getElementById('status').innerText='Not logged in';
-made=[];
-}
-});
-
-window.markMade=async()=>{
-if(!currentUser){
-alert('Please login');
-return;
-}
-
+function markMade(){
+let made=JSON.parse(localStorage.getItem('made')||'[]');
 if(!made.find(x=>x.country===current.country)){
 made.push(current);
-
-await setDoc(doc(db,'users',currentUser.uid),{made});
-
+localStorage.setItem('made',JSON.stringify(made));
 alert('Saved');
 }
 }
 
-function renderMade(){
-document.getElementById('madeList').innerHTML=
-made.map(x=>`<div class="made-item">${x.dessert} — ${x.country}</div>`).join('') || 'Nothing saved yet';
+function showMade(){
+let made=JSON.parse(localStorage.getItem('made')||'[]');
+alert(made.map(x=>x.dessert+' — '+x.country).join('\n')||'Nothing saved');
+}
+
+function openAccount(){
+document.getElementById('accountModal').style.display='flex';
+}
+
+function closeAccount(){
+document.getElementById('accountModal').style.display='none';
+}
+
+function fakeLogin(){
+const email=document.getElementById('email').value;
+if(email){
+localStorage.setItem('user',email);
+document.getElementById('status').innerText='Logged in as '+email;
+closeAccount();
+}
+}
+
+const user=localStorage.getItem('user');
+if(user){
+document.getElementById('status').innerText='Logged in as '+user;
 }
 </script>
 </body>
