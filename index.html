@@ -8,97 +8,97 @@
 
 <style>
 body{
-background:#020617;
-color:white;
-font-family:Arial;
-margin:0;
-padding:20px;
+  background:#020617;
+  color:white;
+  font-family:Arial,sans-serif;
+  margin:0;
+  padding:20px;
 }
 .container{
-max-width:900px;
-margin:auto;
+  max-width:900px;
+  margin:auto;
 }
 .grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:12px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
 }
 button{
-padding:18px;
-border:none;
-border-radius:18px;
-font-size:16px;
-font-weight:bold;
-cursor:pointer;
+  padding:18px;
+  border:none;
+  border-radius:18px;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:16px;
 }
 .primary{
-background:white;
-color:black;
+  background:white;
+  color:black;
 }
 .secondary{
-background:#172554;
-color:white;
+  background:#172554;
+  color:white;
 }
 .card{
-background:#0f172a;
-border-radius:28px;
-overflow:hidden;
-margin-top:20px;
+  background:#0f172a;
+  border-radius:28px;
+  overflow:hidden;
+  margin-top:20px;
 }
 .hero{
-width:100%;
-height:360px;
-object-fit:cover;
-background:#111827;
+  width:100%;
+  height:360px;
+  object-fit:cover;
+  background:#111827;
 }
 .content{
-padding:24px;
+  padding:24px;
 }
 .recipe{
-display:inline-block;
-margin-top:16px;
-padding:16px 24px;
-border-radius:18px;
-text-decoration:none;
-color:white;
-background:linear-gradient(90deg,#f97316,#ec4899);
+  display:inline-block;
+  margin-top:16px;
+  padding:16px 24px;
+  border-radius:18px;
+  text-decoration:none;
+  color:white;
+  background:linear-gradient(90deg,#f97316,#ec4899);
 }
 .search{
-width:100%;
-padding:18px;
-border:none;
-border-radius:18px;
-margin-top:20px;
+  width:100%;
+  padding:18px;
+  border:none;
+  border-radius:18px;
+  margin-top:20px;
 }
 .item{
-background:#111827;
-padding:14px;
-border-radius:14px;
-margin-top:10px;
-cursor:pointer;
+  background:#111827;
+  padding:14px;
+  border-radius:14px;
+  margin-top:10px;
+  cursor:pointer;
 }
 .modal{
-position:fixed;
-inset:0;
-background:rgba(0,0,0,.7);
-display:none;
-align-items:center;
-justify-content:center;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  display:none;
+  align-items:center;
+  justify-content:center;
 }
 .box{
-background:#111827;
-padding:20px;
-border-radius:20px;
-width:90%;
-max-width:500px;
-max-height:80vh;
-overflow:auto;
+  background:#111827;
+  padding:20px;
+  border-radius:20px;
+  width:90%;
+  max-width:500px;
+  max-height:80vh;
+  overflow:auto;
 }
 .made-item{
-background:#172554;
-padding:12px;
-border-radius:12px;
-margin-top:10px;
+  background:#172554;
+  padding:12px;
+  border-radius:12px;
+  margin-top:10px;
 }
 </style>
 </head>
@@ -108,7 +108,7 @@ margin-top:10px;
 <div class="container">
 
 <h1>🍰 Dessert Explorer</h1>
-<p>Shared global made-desserts list</p>
+<p>Unsplash image edition</p>
 
 <div class="grid">
 <button class="primary" onclick="randomDessert()">🎲 Random Dessert</button>
@@ -118,7 +118,11 @@ margin-top:10px;
 </div>
 
 <div class="card">
-<img id="hero" class="hero">
+<img
+  id="hero"
+  class="hero"
+  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop';"
+/>
 
 <div class="content">
 <h2 id="dessert"></h2>
@@ -136,127 +140,110 @@ margin-top:10px;
 
 <div id="madeModal" class="modal">
 <div class="box">
+
 <h2>What We've Made</h2>
 
 <div id="madeList"></div>
 
 <button class="secondary" onclick="closeMade()">Close</button>
+
 </div>
 </div>
 
-<script type="module">
-
-import { firebaseConfig } from './firebase-config.js';
-
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
-
-import {
-getFirestore,
-doc,
-getDoc,
-setDoc,
-onSnapshot
-} from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-const sharedDoc = doc(db,'global','madeDesserts');
-
+<script>
 let desserts = [];
 let current = null;
-let made = [];
+let made = JSON.parse(localStorage.getItem('madeDesserts') || '[]');
 
 fetch('./desserts.json')
 .then(r=>r.json())
 .then(data=>{
-desserts = data;
-current = desserts[0];
-render();
-renderList(desserts);
+  desserts=data;
+  current=desserts[0];
+  render();
+  renderList(desserts);
 });
 
 function render(){
-document.getElementById('hero').src = current.image;
-document.getElementById('dessert').innerText = current.dessert;
-document.getElementById('country').innerText = current.country;
-document.getElementById('recipe').href = current.recipe;
+  const img=document.getElementById('hero');
+
+  img.src='';
+  img.src=current.image;
+
+  document.getElementById('dessert').innerText=current.dessert;
+  document.getElementById('country').innerText=current.country;
+  document.getElementById('recipe').href=current.recipe;
 }
 
-window.randomDessert = function(){
-current = desserts[Math.floor(Math.random()*desserts.length)];
-render();
+window.randomDessert=function(){
+  current=desserts[Math.floor(Math.random()*desserts.length)];
+  render();
 }
 
-window.pick = function(v){
-current = JSON.parse(v);
-render();
-window.scrollTo({top:0,behavior:'smooth'});
+window.pick=function(v){
+  current=JSON.parse(v);
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
 
 function renderList(items){
-document.getElementById('list').innerHTML =
-items.slice(0,50).map(i=>`
-<div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
-<b>${i.dessert}</b><br>${i.country}
-</div>
-`).join('');
+  document.getElementById('list').innerHTML =
+  items.map(i=>`
+  <div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
+    <b>${i.dessert}</b><br>${i.country}
+  </div>
+  `).join('');
 }
 
 document.getElementById('search').addEventListener('input',e=>{
-const q = e.target.value.toLowerCase();
+  const q=e.target.value.toLowerCase();
 
-renderList(
-desserts.filter(d =>
-d.country.toLowerCase().includes(q) ||
-d.dessert.toLowerCase().includes(q)
-)
-);
+  renderList(
+    desserts.filter(d =>
+      d.country.toLowerCase().includes(q) ||
+      d.dessert.toLowerCase().includes(q)
+    )
+  );
 });
 
-window.markMade = async function(){
+window.markMade=function(){
 
-if(!made.find(x => x.country === current.country)){
+  if(!made.find(x=>x.country===current.country)){
 
-made.push(current);
+    made.push(current);
 
-await setDoc(sharedDoc,{ made });
+    localStorage.setItem(
+      'madeDesserts',
+      JSON.stringify(made)
+    );
 
-alert('Added to shared made list');
-}
-}
-
-window.openMade = function(){
-renderMade();
-document.getElementById('madeModal').style.display='flex';
+    alert('Saved');
+  }
 }
 
-window.closeMade = function(){
-document.getElementById('madeModal').style.display='none';
+window.openMade=function(){
+  renderMade();
+  document.getElementById('madeModal').style.display='flex';
 }
 
-window.clearMade = async function(){
-made = [];
-await setDoc(sharedDoc,{ made:[] });
-renderMade();
+window.closeMade=function(){
+  document.getElementById('madeModal').style.display='none';
+}
+
+window.clearMade=function(){
+  made=[];
+  localStorage.removeItem('madeDesserts');
+  renderMade();
 }
 
 function renderMade(){
-document.getElementById('madeList').innerHTML =
-made.map(x=>`
-<div class="made-item">
-${x.dessert} — ${x.country}
-</div>
-`).join('') || 'Nothing saved yet.';
+  document.getElementById('madeList').innerHTML =
+  made.map(x=>`
+    <div class="made-item">
+      ${x.dessert} — ${x.country}
+    </div>
+  `).join('') || 'Nothing saved yet.';
 }
-
-onSnapshot(sharedDoc,(snap)=>{
-if(snap.exists()){
-made = snap.data().made || [];
-renderMade();
-}
-});
-
 </script>
 
 </body>
