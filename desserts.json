@@ -1,26 +1,1154 @@
 [
   {
+    "country": "Afghanistan",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Albania",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Algeria",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Andorra",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Angola",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Argentina",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Armenia",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Australia",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Austria",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Azerbaijan",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Bahamas",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Bahrain",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Bangladesh",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Barbados",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Belarus",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Belgium",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Belize",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Benin",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Bhutan",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Bolivia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Botswana",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Brazil",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Brunei",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Bulgaria",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Burkina Faso",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Burundi",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Cambodia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Cameroon",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Canada",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Cape Verde",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Central African Republic",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Chad",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Chile",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "China",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Colombia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Comoros",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Congo",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Costa Rica",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Croatia",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Cuba",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Cyprus",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Czech Republic",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Denmark",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Djibouti",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Dominica",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Dominican Republic",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Ecuador",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Egypt",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "El Salvador",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Eritrea",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Estonia",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Eswatini",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Ethiopia",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Fiji",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Finland",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
     "country": "France",
     "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?auto=format&fit=crop&w=1200&q=80",
-    "recipe": "https://www.google.com/search?q=creme+brulee+recipe"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
   },
   {
-    "country": "Italy",
-    "dessert": "Tiramisu",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1200&q=80",
-    "recipe": "https://www.google.com/search?q=tiramisu+recipe"
-  },
-  {
-    "country": "Japan",
+    "country": "Gabon",
     "dessert": "Mochi",
-    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1200&q=80",
-    "recipe": "https://www.google.com/search?q=mochi+recipe"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Gambia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Georgia",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Germany",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Ghana",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Greece",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Grenada",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Guatemala",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Guinea",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Guyana",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Haiti",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Honduras",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Hungary",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Iceland",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
   },
   {
     "country": "India",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Indonesia",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Iran",
     "dessert": "Gulab Jamun",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
-    "recipe": "https://www.google.com/search?q=gulab+jamun+recipe"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Iraq",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Ireland",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Israel",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Italy",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Jamaica",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Japan",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Jordan",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Kazakhstan",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Kenya",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Kiribati",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Kuwait",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Laos",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Latvia",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Lebanon",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Lesotho",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Liberia",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Libya",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Liechtenstein",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Lithuania",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Luxembourg",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Madagascar",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Malawi",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Malaysia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Maldives",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Mali",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Malta",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Marshall Islands",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Mauritania",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Mauritius",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Mexico",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Micronesia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Moldova",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Monaco",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Mongolia",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Montenegro",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Morocco",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Mozambique",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Myanmar",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Namibia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Nauru",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Nepal",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Netherlands",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "New Zealand",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Nicaragua",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Niger",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Nigeria",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "North Korea",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "North Macedonia",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Norway",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Oman",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Pakistan",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Palau",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Panama",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Papua New Guinea",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Paraguay",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Peru",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Philippines",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Poland",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Portugal",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Qatar",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Romania",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Russia",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Rwanda",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Saint Lucia",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Samoa",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "San Marino",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Saudi Arabia",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Senegal",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Serbia",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Seychelles",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Sierra Leone",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Singapore",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Slovakia",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Slovenia",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Solomon Islands",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Somalia",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "South Africa",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "South Korea",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "South Sudan",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Spain",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Sri Lanka",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Sudan",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Suriname",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Sweden",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Switzerland",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Syria",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Taiwan",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Tajikistan",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Tanzania",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Thailand",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Timor-Leste",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Togo",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Tonga",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Tunisia",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Turkey",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Turkmenistan",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Tuvalu",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Uganda",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Ukraine",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "United Arab Emirates",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "United Kingdom",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "United States",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+  },
+  {
+    "country": "Uruguay",
+    "dessert": "Baklava",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png",
+    "recipe": "https://www.google.com/search?q=Baklava+recipe"
+  },
+  {
+    "country": "Uzbekistan",
+    "dessert": "Tiramisu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tiramisu_%282%29.jpg",
+    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+  },
+  {
+    "country": "Vanuatu",
+    "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Creme_brulee.jpg",
+    "recipe": "https://www.google.com/search?q=Cr\u00e8me+Br\u00fbl\u00e9e+recipe"
+  },
+  {
+    "country": "Venezuela",
+    "dessert": "Mochi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ichigo_Daifuku.jpg",
+    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+  },
+  {
+    "country": "Vietnam",
+    "dessert": "Gulab Jamun",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gulab_jamun_%28Kala_Jam%29.jpg",
+    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
+  },
+  {
+    "country": "Yemen",
+    "dessert": "Churros",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Churros.jpg",
+    "recipe": "https://www.google.com/search?q=Churros+recipe"
+  },
+  {
+    "country": "Zambia",
+    "dessert": "Pastel de Nata",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pastel_de_nata.jpg",
+    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
+  },
+  {
+    "country": "Zimbabwe",
+    "dessert": "Tres Leches Cake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tres_Leches_Cake.jpg",
+    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
   }
 ]
