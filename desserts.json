@@ -2,49 +2,25 @@
   {
     "country": "France",
     "dessert": "Cr\u00e8me Br\u00fbl\u00e9e",
-    "image": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Creme+Brulee+recipe"
+    "image": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?auto=format&fit=crop&w=1200&q=80",
+    "recipe": "https://www.google.com/search?q=creme+brulee+recipe"
   },
   {
     "country": "Italy",
     "dessert": "Tiramisu",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Tiramisu+recipe"
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1200&q=80",
+    "recipe": "https://www.google.com/search?q=tiramisu+recipe"
   },
   {
     "country": "Japan",
     "dessert": "Mochi",
-    "image": "https://images.unsplash.com/photo-1617196035154-1e1c0d2b6b4d?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Mochi+recipe"
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1200&q=80",
+    "recipe": "https://www.google.com/search?q=mochi+recipe"
   },
   {
     "country": "India",
     "dessert": "Gulab Jamun",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Gulab+Jamun+recipe"
-  },
-  {
-    "country": "Spain",
-    "dessert": "Churros",
-    "image": "https://images.unsplash.com/photo-1624371414361-e670edf13c1d?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Churros+recipe"
-  },
-  {
-    "country": "Portugal",
-    "dessert": "Pastel de Nata",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Pastel+de+Nata+recipe"
-  },
-  {
-    "country": "Turkey",
-    "dessert": "Baklava",
-    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Baklava+recipe"
-  },
-  {
-    "country": "Mexico",
-    "dessert": "Tres Leches Cake",
-    "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop",
-    "recipe": "https://www.google.com/search?q=Tres+Leches+Cake+recipe"
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+    "recipe": "https://www.google.com/search?q=gulab+jamun+recipe"
   }
 ]

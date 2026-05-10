@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +8,28 @@
 
 <style>
 body{
+  margin:0;
   background:#020617;
   color:white;
   font-family:Arial,sans-serif;
-  margin:0;
-  padding:20px;
 }
 .container{
   max-width:900px;
   margin:auto;
+  padding:20px;
 }
-.grid{
+.buttons{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:12px;
 }
 button{
-  padding:18px;
   border:none;
   border-radius:18px;
+  padding:18px;
+  font-size:16px;
   font-weight:bold;
   cursor:pointer;
-  font-size:16px;
 }
 .primary{
   background:white;
@@ -40,14 +40,14 @@ button{
   color:white;
 }
 .card{
+  margin-top:20px;
   background:#0f172a;
   border-radius:28px;
   overflow:hidden;
-  margin-top:20px;
 }
 .hero{
   width:100%;
-  height:360px;
+  height:340px;
   object-fit:cover;
   background:#111827;
 }
@@ -56,80 +56,73 @@ button{
 }
 .recipe{
   display:inline-block;
-  margin-top:16px;
-  padding:16px 24px;
-  border-radius:18px;
-  text-decoration:none;
-  color:white;
+  margin-top:14px;
   background:linear-gradient(90deg,#f97316,#ec4899);
+  color:white;
+  padding:14px 22px;
+  border-radius:16px;
+  text-decoration:none;
 }
 .search{
   width:100%;
+  margin-top:20px;
   padding:18px;
   border:none;
   border-radius:18px;
-  margin-top:20px;
+  box-sizing:border-box;
 }
 .item{
-  background:#111827;
-  padding:14px;
-  border-radius:14px;
   margin-top:10px;
+  background:#111827;
+  border-radius:16px;
+  padding:14px;
   cursor:pointer;
 }
 .modal{
   position:fixed;
   inset:0;
-  background:rgba(0,0,0,.7);
   display:none;
   align-items:center;
   justify-content:center;
+  background:rgba(0,0,0,.7);
 }
-.box{
-  background:#111827;
-  padding:20px;
-  border-radius:20px;
+.modal-box{
   width:90%;
   max-width:500px;
   max-height:80vh;
   overflow:auto;
+  background:#111827;
+  border-radius:20px;
+  padding:20px;
 }
-.made-item{
+.saved{
   background:#172554;
-  padding:12px;
   border-radius:12px;
+  padding:12px;
   margin-top:10px;
 }
 </style>
 </head>
-
 <body>
 
 <div class="container">
 
 <h1>🍰 Dessert Explorer</h1>
-<p>Unsplash image edition</p>
 
-<div class="grid">
-<button class="primary" onclick="randomDessert()">🎲 Random Dessert</button>
-<button class="secondary" onclick="markMade()">✅ Made</button>
-<button class="secondary" onclick="openMade()">📘 What We've Made</button>
-<button class="secondary" onclick="clearMade()">🗑 Clear Shared List</button>
+<div class="buttons">
+  <button class="primary" id="randomBtn">🎲 Random Dessert</button>
+  <button class="secondary" id="saveBtn">✅ Made</button>
+  <button class="secondary" id="viewBtn">📘 What We've Made</button>
+  <button class="secondary" id="clearBtn">🗑 Clear List</button>
 </div>
 
 <div class="card">
-<img
-  id="hero"
-  class="hero"
-  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop';"
-/>
-
-<div class="content">
-<h2 id="dessert"></h2>
-<h3 id="country"></h3>
-
-<a id="recipe" class="recipe" target="_blank">View Recipe</a>
-</div>
+  <img id="hero" class="hero" alt="Dessert image">
+  <div class="content">
+    <h2 id="dessert"></h2>
+    <h3 id="country"></h3>
+    <a id="recipe" class="recipe" target="_blank">View Recipe</a>
+  </div>
 </div>
 
 <input id="search" class="search" placeholder="Search desserts or countries">
@@ -138,16 +131,12 @@ button{
 
 </div>
 
-<div id="madeModal" class="modal">
-<div class="box">
-
-<h2>What We've Made</h2>
-
-<div id="madeList"></div>
-
-<button class="secondary" onclick="closeMade()">Close</button>
-
-</div>
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <h2>What We've Made</h2>
+    <div id="savedList"></div>
+    <button class="secondary" id="closeModal" style="margin-top:16px;width:100%">Close</button>
+  </div>
 </div>
 
 <script>
@@ -156,93 +145,119 @@ let current = null;
 let made = JSON.parse(localStorage.getItem('madeDesserts') || '[]');
 
 fetch('./desserts.json')
-.then(r=>r.json())
-.then(data=>{
-  desserts=data;
-  current=desserts[0];
+.then(r => r.json())
+.then(data => {
+  desserts = data;
+  current = desserts[0];
   render();
   renderList(desserts);
+})
+.catch(err => {
+  console.error(err);
+  alert('Could not load desserts.json');
 });
 
 function render(){
-  const img=document.getElementById('hero');
+  const img = document.getElementById('hero');
 
-  img.src='';
-  img.src=current.image;
+  img.onerror = () => {
+    img.src = 'https://picsum.photos/1200/800';
+  };
 
-  document.getElementById('dessert').innerText=current.dessert;
-  document.getElementById('country').innerText=current.country;
-  document.getElementById('recipe').href=current.recipe;
-}
+  img.src = current.image;
 
-window.randomDessert=function(){
-  current=desserts[Math.floor(Math.random()*desserts.length)];
-  render();
-}
-
-window.pick=function(v){
-  current=JSON.parse(v);
-  render();
-  window.scrollTo({top:0,behavior:'smooth'});
+  document.getElementById('dessert').textContent = current.dessert;
+  document.getElementById('country').textContent = current.country;
+  document.getElementById('recipe').href = current.recipe;
 }
 
 function renderList(items){
-  document.getElementById('list').innerHTML =
-  items.map(i=>`
-  <div class="item" onclick='pick(${JSON.stringify(JSON.stringify(i))})'>
-    <b>${i.dessert}</b><br>${i.country}
-  </div>
-  `).join('');
+  const list = document.getElementById('list');
+
+  list.innerHTML = '';
+
+  items.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'item';
+    div.innerHTML = '<b>' + item.dessert + '</b><br>' + item.country;
+
+    div.addEventListener('click', () => {
+      current = item;
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    list.appendChild(div);
+  });
 }
 
-document.getElementById('search').addEventListener('input',e=>{
-  const q=e.target.value.toLowerCase();
-
-  renderList(
-    desserts.filter(d =>
-      d.country.toLowerCase().includes(q) ||
-      d.dessert.toLowerCase().includes(q)
-    )
-  );
+document.getElementById('randomBtn').addEventListener('click', () => {
+  current = desserts[Math.floor(Math.random() * desserts.length)];
+  render();
 });
 
-window.markMade=function(){
+document.getElementById('saveBtn').addEventListener('click', () => {
 
-  if(!made.find(x=>x.country===current.country)){
+  const exists = made.find(x =>
+    x.country === current.country &&
+    x.dessert === current.dessert
+  );
 
+  if(!exists){
     made.push(current);
-
-    localStorage.setItem(
-      'madeDesserts',
-      JSON.stringify(made)
-    );
-
-    alert('Saved');
+    localStorage.setItem('madeDesserts', JSON.stringify(made));
+    alert('Dessert saved');
   }
-}
+});
 
-window.openMade=function(){
-  renderMade();
-  document.getElementById('madeModal').style.display='flex';
-}
+document.getElementById('viewBtn').addEventListener('click', () => {
+  renderSaved();
+  document.getElementById('modal').style.display = 'flex';
+});
 
-window.closeMade=function(){
-  document.getElementById('madeModal').style.display='none';
-}
+document.getElementById('closeModal').addEventListener('click', () => {
+  document.getElementById('modal').style.display = 'none';
+});
 
-window.clearMade=function(){
-  made=[];
+document.getElementById('clearBtn').addEventListener('click', () => {
+  made = [];
   localStorage.removeItem('madeDesserts');
-  renderMade();
-}
+  renderSaved();
+});
 
-function renderMade(){
-  document.getElementById('madeList').innerHTML =
-  made.map(x=>`
-    <div class="made-item">
-      ${x.dessert} — ${x.country}
-    </div>
-  `).join('') || 'Nothing saved yet.';
+document.getElementById('search').addEventListener('input', e => {
+
+  const q = e.target.value.toLowerCase();
+
+  const filtered = desserts.filter(d =>
+    d.country.toLowerCase().includes(q) ||
+    d.dessert.toLowerCase().includes(q)
+  );
+
+  renderList(filtered);
+});
+
+function renderSaved(){
+
+  const el = document.getElementById('savedList');
+
+  if(made.length === 0){
+    el.innerHTML = 'Nothing saved yet.';
+    return;
+  }
+
+  el.innerHTML = '';
+
+  made.forEach(item => {
+
+    const div = document.createElement('div');
+
+    div.className = 'saved';
+
+    div.textContent = item.dessert + ' — ' + item.country;
+
+    el.appendChild(div);
+  });
 }
 </script>
 
